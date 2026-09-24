@@ -17,7 +17,7 @@ favicon.svg             Tab-Icon
 ## 1. Platzhalter ersetzen (vor dem Upload)
 Öffne den Ordner in einem Editor (z. B. VS Code, kostenlos) und nutze „Suchen & Ersetzen in allen Dateien“:
 - `https://www.gabyluong.ch` → deine echte Domain (kommt in allen HTML-Dateien, robots.txt und sitemap.xml vor)
-- `https://www.linkedin.com/` → dein LinkedIn-Profil-Link
+- `https://www.linkedin.com/in/gaby-luong-458124151` → dein LinkedIn-Profil-Link
 - CV-Button: PDF als `assets/cv-gaby-luong.pdf` ablegen und in `index.html` den CV-Link auf `assets/cv-gaby-luong.pdf` setzen
 - Reflection-Sätze in den drei Case Studies in deinen eigenen Worten formulieren
 
