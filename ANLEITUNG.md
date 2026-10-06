@@ -2,14 +2,13 @@
 
 ## Ordnerstruktur
 ```
-index.html              Startseite
-books/index.html        Case Study MDPI Books        → /books/
-design-system/index.html Case Study Design System    → /design-system/
-user-hub/index.html     Case Study User Hub          → /user-hub/
+index.html              Die ganze Seite (alle Case Studies als Abschnitte, z. B. /#work-books)
+books/, design-system/, user-hub/  Alte Adressen, leiten auf die neuen Abschnitte weiter
 404.html                Fehlerseite
-assets/style.css        Gesamtes Design
-assets/main.js          Hell/Dunkel-Umschalter
 assets/img/             Bilder (WebP) + og.jpg (Vorschaubild für LinkedIn & Co.)
+assets/fonts/           Schrift Diatype Rounded
+assets/media/           Video MAMA
+assets/cv-gaby-luong.pdf CV zum Download
 robots.txt, sitemap.xml Für Google
 favicon.svg             Tab-Icon
 ```
@@ -18,7 +17,7 @@ favicon.svg             Tab-Icon
 Öffne den Ordner in einem Editor (z. B. VS Code, kostenlos) und nutze „Suchen & Ersetzen in allen Dateien“:
 - `https://www.gabyluong.ch` → deine echte Domain (kommt in allen HTML-Dateien, robots.txt und sitemap.xml vor)
 - `https://www.linkedin.com/in/gaby-luong-458124151` → dein LinkedIn-Profil-Link
-- CV-Button: PDF als `assets/cv-gaby-luong.pdf` ablegen und in `index.html` den CV-Link auf `assets/cv-gaby-luong.pdf` setzen
+- CV aktualisieren: neue PDF einfach als `assets/cv-gaby-luong.pdf` ersetzen
 - Reflection-Sätze in den drei Case Studies in deinen eigenen Worten formulieren
 
 ## 2. Lokal ansehen

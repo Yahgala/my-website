@@ -1,140 +1,599 @@
-<!doctype html>
-<html lang="en">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>Gaby Luong — UX & Product Designer in Basel, Switzerland</title>
-<meta name="description" content="Portfolio of Gaby Luong, UX & Product Designer in Basel. Case studies in UX research, design systems and product design for MDPI, plus graphic and visual work.">
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Gaby Luong — Product Designer in Basel, Switzerland</title>
+<meta name="description" content="Portfolio of Gaby Luong, Product Designer in Basel. Case studies in UX research, design systems and product design for MDPI, plus graphic and visual work.">
 <link rel="canonical" href="https://www.gabyluong.ch/">
 <meta name="author" content="Gaby Luong">
 <meta name="robots" content="index, follow">
 <meta name="theme-color" content="#FDFDF8">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Gaby Luong">
-<meta property="og:title" content="Gaby Luong — UX & Product Designer in Basel, Switzerland">
-<meta property="og:description" content="Portfolio of Gaby Luong, UX & Product Designer in Basel. Case studies in UX research, design systems and product design for MDPI, plus graphic and visual work.">
+<meta property="og:title" content="Gaby Luong — Product Designer in Basel, Switzerland">
+<meta property="og:description" content="Portfolio of Gaby Luong, Product Designer in Basel. Case studies in UX research, design systems and product design for MDPI, plus graphic and visual work.">
 <meta property="og:url" content="https://www.gabyluong.ch/">
 <meta property="og:image" content="https://www.gabyluong.ch/assets/img/og.jpg">
 <meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
 <meta property="og:locale" content="en_GB">
 <meta name="twitter:card" content="summary_large_image">
 <link rel="icon" href="favicon.svg" type="image/svg+xml">
-<link rel="stylesheet" href="assets/style.css">
-<script>try{var t=localStorage.getItem('gl-theme');if(t)document.documentElement.setAttribute('data-theme',t)}catch(e){}</script>
-<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "Person", "@id": "https://www.gabyluong.ch/#person", "name": "Gaby Luong", "jobTitle": "UX & Product Designer", "url": "https://www.gabyluong.ch/", "email": "mailto:gabyluong@hotmail.com", "address": {"@type": "PostalAddress", "addressLocality": "Basel", "addressCountry": "CH"}, "knowsAbout": ["UX Research", "Product Design", "Design Systems", "Visual Design", "Typography"], "sameAs": ["https://www.linkedin.com/in/gaby-luong-458124151"]}, {"@type": "WebSite", "@id": "https://www.gabyluong.ch/#website", "url": "https://www.gabyluong.ch/", "name": "Gaby Luong", "inLanguage": "en", "publisher": {"@id": "https://www.gabyluong.ch/#person"}}]}</script>
-</head>
-<body>
-<a class="skip" href="#main">Skip to content</a>
-<header class="top"><div class="wrap">
-  <a class="brand" href="./">Gaby Luong</a>
-  <nav class="nav" aria-label="Main">
-    <a href="./#work">Work</a><a href="./#about">About</a><a href="./#contact">Contact</a>
-    <button class="theme" id="themeBtn" type="button" aria-label="Switch light or dark theme">
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M20 14.5A8 8 0 1 1 9.5 4a6.5 6.5 0 0 0 10.5 10.5Z"/></svg>
-    </button>
-  </nav>
-</div></header>
-<main id="main" class="wrap">
-  <section class="hero g" id="home">
-    <div class="l"><p class="label">UX &amp; Product Designer · Basel, Switzerland</p></div>
-    <div class="r">
-      <h1>Hi, I’m Gaby. I’m a UX &amp; Product Designer and I bring clarity to systems, <span class="muted">and courage to visuals.</span></h1>
-      <div class="hero-meta">
-        <span class="avail"><span class="dot"></span>Open to UX &amp; Product roles</span>
-      </div>
-      <div class="hero-meta" style="margin-top:1.25rem">
-        <a class="pill solid" href="./#work">See selected work ↓</a>
-        <a class="pill" href="https://www.linkedin.com/in/gaby-luong-458124151" target="_blank" rel="noopener">LinkedIn ↗</a>
-        <a class="pill" href="./#contact">Mail me</a>
-        <a class="pill" href="./#contact">CV</a>
-      </div>
-    </div>
-  </section>
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "Person", "@id": "https://www.gabyluong.ch/#person", "name": "Gaby Luong", "jobTitle": "Product Designer", "url": "https://www.gabyluong.ch/", "email": "mailto:info@gabyluong.com", "address": {"@type": "PostalAddress", "addressLocality": "Basel", "addressCountry": "CH"}, "knowsAbout": ["UX Research", "Product Design", "Design Systems", "Visual Design", "Typography"], "sameAs": ["https://www.linkedin.com/in/gaby-luong-458124151"]}, {"@type": "WebSite", "@id": "https://www.gabyluong.ch/#website", "url": "https://www.gabyluong.ch/", "name": "Gaby Luong", "inLanguage": "en", "publisher": {"@id": "https://www.gabyluong.ch/#person"}}]}</script>
+<style>
+:root{--bg:#f4f4f2;--paper:#fff;--ink:#1a1a1a;--mute:#8a8a8a;--l1:#e4e4e2;--l2:#d2d2cf;--l3:#bdbdb9;--acc:#d9542b}
+@media (prefers-color-scheme:dark){:root{--bg:#141414;--paper:#1c1c1c;--ink:#ededed;--mute:#8c8c8c;--l1:#2a2a2a;--l2:#353535;--l3:#454545;--acc:#ff7a4f}}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--bg);color:var(--ink);font:14px/1.5 "Helvetica Neue",Helvetica,Arial,system-ui,sans-serif}
+a{color:inherit;text-decoration:none}
+button{font:inherit;color:inherit;background:none;border:0;cursor:pointer}
+.site{max-width:1200px;margin:0 auto;background:var(--paper);min-height:100vh;border-left:1px solid var(--l1);border-right:1px solid var(--l1)}
+header{display:flex;justify-content:space-between;align-items:center;padding:18px 40px;border-bottom:1px solid var(--l1);position:sticky;top:0;background:var(--paper);z-index:5}
+header nav{display:flex;gap:22px;font-size:13px;color:var(--mute)}
+header nav a.on{color:var(--ink);font-weight:500}
+header nav a:hover{color:var(--ink)}
+.pill{border:1px solid var(--ink);border-radius:30px;padding:5px 14px;font-size:12px;display:inline-block}
+.pill.solid{background:var(--ink);color:var(--paper)}
+main{padding:0 40px 20px}
+.g{display:grid;grid-template-columns:1fr 2fr;gap:32px}
+.eb{font-size:11px;color:var(--mute)}
+.tag{font-size:10px;color:var(--mute);text-transform:uppercase;letter-spacing:.08em}
+.hl{font-size:clamp(26px,3.8vw,46px);line-height:1.06;letter-spacing:-.02em;font-weight:400}
+.hl span{color:var(--l3)}
+.h1{font-size:clamp(26px,3.4vw,40px);letter-spacing:-.02em;font-weight:400;line-height:1.1;display:flex;align-items:center}
+.h2{font-size:20px;font-weight:400;letter-spacing:-.01em;margin-bottom:10px}
+.n{display:inline-flex;width:22px;height:22px;border:1px solid currentColor;border-radius:50%;font-size:11px;align-items:center;justify-content:center;margin-right:10px;flex:none}
+.box{background:var(--l1);border-radius:6px;position:relative;display:flex;align-items:center;justify-content:center;color:var(--mute);font-size:11px;text-align:center;padding:8px;overflow:hidden}
+.box::before,.box::after{content:"";position:absolute;inset:0;background:linear-gradient(to top right,transparent calc(50% - .5px),var(--l2) 50%,transparent calc(50% + .5px)),linear-gradient(to top left,transparent calc(50% - .5px),var(--l2) 50%,transparent calc(50% + .5px));opacity:.6}
+.box span{position:relative;z-index:1;background:var(--l1);padding:1px 6px;border-radius:3px}
+a.box:hover,a .box:hover{outline:2px solid var(--ink);outline-offset:-2px}
+.lines{display:grid;gap:7px}.lines i{display:block;height:9px;background:var(--l1);border-radius:3px}
+.sec{margin-top:60px}
+.hr{border-top:1px solid var(--l1);margin:56px 0 0}
+.filters{display:flex;gap:8px;flex-wrap:wrap;margin:34px 0 18px;align-items:center}
+.filters .pill{border-color:var(--l3);color:var(--mute)}
+.filters .pill.on{border-color:var(--ink);background:var(--ink);color:var(--paper)}
+.filters .pill:hover{border-color:var(--ink);color:var(--ink)}
+.filters .pill.on:hover{color:var(--paper)}
+/* wall */
+.wall{display:grid;grid-template-columns:repeat(6,1fr);grid-auto-rows:112px;gap:8px;grid-auto-flow:dense}
+.wall a{display:block;position:relative}.wall a .box{height:100%}
+.lab{position:absolute;left:8px;bottom:8px;z-index:2;font-size:10px;padding:2px 8px;border-radius:10px;background:var(--paper);color:var(--ink);border:1px solid var(--l2)}
+.lab.p{background:var(--ink);color:var(--paper);border-color:var(--ink)}
+.s2{grid-column:span 2}.r2{grid-row:span 2}.s3{grid-column:span 3}
+.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.cards .box{height:170px;margin-bottom:10px}
+.cards b{font-weight:500;display:flex;align-items:center}
+.cards p{font-size:12px;color:var(--mute);margin-top:3px}
+/* mobile pairs (D) */
+.pairs{display:none}
+.pair{margin-top:26px}.pair h3{font-size:20px;font-weight:400;letter-spacing:-.01em;margin:4px 0 10px}.pair h3 span{color:var(--l3)}
+.pair .two{display:grid;grid-template-columns:1fr 1fr;gap:8px}.pair .two .box{height:130px}
+.cap{font-size:11px;color:var(--mute);margin-top:4px}
+/* overview A */
+.ovhead{margin-top:28px}
+.plist{display:grid;gap:0;margin-top:20px}
+.prow{display:grid;grid-template-columns:200px 1fr auto;gap:22px;align-items:center;padding:16px 0;border-top:1px solid var(--l1)}
+.prow .box{height:120px}
+.prow b{font-weight:500;font-size:17px;display:flex;align-items:center}
+.prow .res{font-size:12px;border:1px solid var(--l2);border-radius:20px;padding:3px 10px;color:var(--mute);white-space:nowrap}
+.prow:hover b{text-decoration:underline}
+.vgrid{display:grid;grid-template-columns:repeat(4,1fr);grid-auto-rows:150px;gap:10px;margin-top:20px;grid-auto-flow:dense}
+.vgrid a{display:flex;flex-direction:column}.vgrid a .box{flex:1}
+.vgrid .cap{display:flex;justify-content:space-between}
+/* case study: summary first */
+.tldr{display:grid;grid-template-columns:repeat(4,1fr);border:1px solid var(--l2);border-radius:10px;overflow:hidden;margin-top:18px}
+.tldr div{padding:16px;border-right:1px solid var(--l2);font-size:13px}.tldr div:last-child{border-right:0;background:var(--l1)}
+.tldr b{display:block;font-size:10px;color:var(--mute);font-weight:500;text-transform:uppercase;letter-spacing:.08em;margin-bottom:6px}
+.chapnav{position:sticky;top:57px;background:var(--paper);z-index:4;display:flex;gap:20px;font-size:12px;color:var(--mute);border-bottom:1px solid var(--l1);padding:12px 0;margin-top:34px;overflow-x:auto;white-space:nowrap}
+.chapnav a:hover,.chapnav a.on{color:var(--ink)}
+.steps div{display:grid;grid-template-columns:140px 1fr;gap:12px;padding:9px 0;border-top:1px solid var(--l1);font-size:13px}
+.steps b{font-weight:500}
+.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:10px}
+.stats div{background:var(--l1);border-radius:8px;padding:14px}
+.stats b{display:block;font-size:24px;font-weight:400}.stats span{font-size:12px;color:var(--mute)}
+.pairbox{display:grid;grid-template-columns:1fr 1fr;gap:20px;align-items:center;border:1px dashed var(--l3);border-radius:10px;padding:20px}
+.pairbox .box{height:170px}
+.next{display:flex;justify-content:space-between;align-items:center;border-top:1px solid var(--l1);margin-top:64px;padding-top:22px}
+.next .h1{font-size:24px}
+.meta{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;font-size:12px;margin-top:22px}
+.meta div{border-top:1px solid var(--l1);padding-top:8px;color:var(--mute)}.meta b{display:block;color:var(--ink);font-weight:500;font-size:13px}
+.back{font-size:12px;color:var(--mute);display:inline-block;margin-top:24px}.back:hover{color:var(--ink)}
+footer{display:flex;justify-content:space-between;padding:26px 40px;border-top:1px solid var(--l1);margin-top:70px;font-size:11px;color:var(--mute)}
+/* annotations */
+.ann{display:none;font-size:11.5px;color:var(--acc);border-left:2px solid var(--acc);padding:2px 0 2px 9px;margin-top:10px;max-width:640px}
+body.notes .ann{display:block}
+.tools-x{position:fixed;right:14px;bottom:14px;display:flex;gap:8px;z-index:9}
+.tools button{background:var(--ink);color:var(--paper);border-radius:30px;padding:8px 14px;font-size:12px;box-shadow:0 2px 10px rgba(0,0,0,.15)}
+.tools .where{background:var(--paper);color:var(--mute);border:1px solid var(--l2)}
+.burger{display:none}
+@media (max-width:760px){
+ header,main,footer{padding-left:16px;padding-right:16px}
+ header nav{display:none}.burger{display:block;font-size:12px}
+ header nav.open{display:flex;position:absolute;top:100%;left:0;right:0;background:var(--paper);flex-direction:column;padding:14px 16px;border-bottom:1px solid var(--l1)}
+ .g,.cards,.pairbox{grid-template-columns:1fr}
+ .wall{display:none}.pairs{display:block}.wallhead{display:none}
+ .prow{grid-template-columns:110px 1fr}.prow .res{grid-column:2}.prow .box{height:80px}
+ .vgrid{grid-template-columns:1fr 1fr}
+ .tldr,.meta{grid-template-columns:1fr 1fr}.tldr div:nth-child(2){border-right:0}.tldr div:nth-child(-n+2){border-bottom:1px solid var(--l2)}
+ .stats{grid-template-columns:1fr}.steps div{grid-template-columns:1fr;gap:2px}
+ .chapnav{top:53px}
+}
 
-  <section class="sec" id="work">
-    <div class="sec-head g"><div class="l"><p class="label">Selected projects</p></div><div class="r"><h2>UX &amp; Product Design</h2></div></div>
-    <div class="cases">
+.page{display:none}#home{display:block}
+main.pages:has(.page:target) #home:not(:target),main.pages:has(.page :target) #home:not(:has(:target)){display:none}
+.page:target,.page:has(:target){display:block}
+.where{position:fixed;right:118px;bottom:14px;z-index:9;background:var(--paper);color:var(--mute);border:1px solid var(--l2);border-radius:30px;padding:8px 14px;font-size:12px}
+#nt{position:absolute;opacity:0;pointer-events:none}
+.ntl{position:fixed;right:14px;bottom:14px;z-index:9;background:var(--ink);color:var(--paper);border-radius:30px;padding:8px 14px;font-size:12px;cursor:pointer;box-shadow:0 2px 10px rgba(0,0,0,.15)}
+#nt:checked ~ .pages .ann{display:block}
+html{scroll-padding-top:100px}
+.fr{position:absolute;opacity:0;pointer-events:none}
+header.hc{display:flex;justify-content:center;align-items:center}
+header.hc nav{display:flex;gap:28px;font-size:13px;color:var(--mute);justify-self:center}
+header.hc nav a.on{color:var(--ink);font-weight:500;border-bottom:1px solid var(--ink)}
+header.hc .logo{font-weight:500}header.hc .hr-r{justify-self:end;font-size:12px;color:var(--mute)}
+.fbox{display:flex;justify-content:space-between;align-items:flex-end;gap:20px;flex-wrap:wrap;margin:70px 40px 30px;padding:26px;border:1px solid var(--l2);border-radius:10px;font-size:11px;color:var(--mute)}
+.pair3{margin-top:48px}.ptitle3{display:grid;grid-template-columns:1fr 2fr;gap:32px;align-items:end;margin-bottom:14px}
+.ptitle3 h3{font-size:clamp(22px,2.8vw,32px);font-weight:400;letter-spacing:-.015em;line-height:1.1}.ptitle3 h3 span{color:var(--l3)}
+.two3{display:grid;grid-template-columns:1fr 1fr;gap:14px}.cap{display:flex;justify-content:space-between;gap:8px}.two3 .cap b{font-weight:500;color:var(--ink)}
+.rowhead{display:flex;justify-content:space-between;align-items:baseline;margin:44px 0 14px}.rowhead .back{margin:0}
+.car{position:relative;padding:0 44px}
+.vp{overflow:hidden}.track{display:flex;gap:12px;transition:transform .35s ease}
+.track .it{flex:0 0 calc((100% - (var(--v) - 1)*12px)/var(--v));display:block}
+.cnav .ca{display:none;position:absolute;top:calc(50% - 30px);width:34px;height:34px;border:1px solid var(--ink);border-radius:50%;align-items:center;justify-content:center;font-size:18px;cursor:pointer;background:var(--paper);z-index:2}
+.cnav .cprev{left:0}.cnav .cnext{right:0}.cnav .dis{border-color:var(--l2);color:var(--l3);cursor:default}
+.cnt{font-size:11px;color:var(--mute);text-align:center;margin-top:8px}.cnt span{display:none}
+.col{max-width:780px;margin:0 auto}
+.pl{margin-top:56px;padding-top:24px;border-top:1px solid var(--l1)}
+.pl .box{margin-bottom:16px}.plt{display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap}
+.res{font-size:12px;border:1px solid var(--l2);border-radius:20px;padding:3px 10px;color:var(--mute)}
+.vb{margin-top:80px;padding-top:26px;border-top:1px solid var(--l1)}
+.vh{display:flex;gap:16px;align-items:baseline;margin-bottom:18px}.vn{font-size:12px;color:var(--mute);font-variant-numeric:tabular-nums}
+.vt{font-size:clamp(22px,2.6vw,32px);font-weight:400;letter-spacing:-.015em}
+.vcap-r{max-width:340px;margin:16px 0 0 auto}
+.sq{display:grid;grid-template-columns:1fr 1fr;gap:40px;align-items:start;max-width:880px;margin-left:12%}.sq.rev{margin-left:auto;margin-right:0}
+.sq .lines,.ov .lines{margin-top:6px}
+.ov{display:grid;grid-template-columns:1.3fr 1fr;gap:40px;align-items:center}.ov.rev{grid-template-columns:1fr 1.3fr}
+.ovimg{position:relative;height:440px}.ovimg .o1{position:absolute;left:0;top:0;width:62%;height:78%;display:block}.ovimg .o2{position:absolute;right:0;bottom:0;width:55%;height:62%;display:block;box-shadow:0 0 0 8px var(--paper)}
+.dip{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.bleed{display:block;position:relative;margin:0 -40px}.bleed .box{border-radius:0}.bcap{position:absolute;left:40px;bottom:20px;background:var(--paper);padding:6px 12px;border-radius:20px;font-size:12px;z-index:2}
+.tri{display:grid;grid-template-columns:1fr 1fr 1fr;gap:12px;align-items:start}
+.typ{display:grid;grid-template-columns:2fr 1fr;gap:30px;align-items:end}.big{font-size:clamp(40px,7vw,96px);font-weight:400;letter-spacing:-.04em;line-height:.95}
 
-      <a class="card" href="./books/">
-        <div class="media"><img src="assets/img/books_hero.webp" width="1400" height="977" fetchpriority="high" decoding="async" alt="Three phones showing the redesigned MDPI Books product pages"></div>
-        <div class="body">
-          <h3><span class="num">1</span>MDPI Books</h3>
-          <p class="what">Redesign of MDPI’s open access book platform. Researchers couldn’t find the books they needed and had no time to browse.</p>
-          <dl class="facts"><dt>Role</dt><dd>UX &amp; Product Lead, end to end</dd><dt>Year</dt><dd>2023–2024 · 14 months</dd></dl>
-          <div class="result tb"><b>3× traffic</b><span>in six months. Books rose from 4th to 2nd most visited page on MDPI.</span></div>
-          <span class="cta">Read case study <span>→</span></span>
-        </div>
-      </a>
+.lead{font-size:clamp(18px,2vw,22px);line-height:1.4;letter-spacing:-.01em;max-width:820px;margin-top:22px}
+.txt p{max-width:640px;margin-top:10px}.txt .h2{margin-bottom:4px}
+.steps span{color:var(--ink)}
+.out{margin:16px 0 0 18px;max-width:640px}.out li{margin-top:6px}
+@media (max-width:760px){
+ header.hc{grid-template-columns:1fr;gap:10px;justify-items:center}header.hc .hr-r{display:none}header.hc nav{gap:18px}
+ .where{display:none!important}.fbox{margin:50px 16px 20px}
+ .ptitle3{grid-template-columns:1fr;gap:4px}.two3 .box{height:160px!important}.two3 .cap{flex-direction:column;gap:0}
+ .car{padding:0}.cnav{display:none}.vp{overflow-x:auto;scroll-snap-type:x mandatory}.track{transform:none!important}.track .it{flex-basis:72%;scroll-snap-align:start}.cnt{display:none}
+ .pl .box{height:220px!important}
+ .sq,.ov,.ov.rev,.typ{grid-template-columns:1fr;margin-left:0;gap:16px}.ovimg{height:300px}.ov.rev .ovimg{order:-1}.sq.rev a{order:-1}
+ .dip .box{height:260px!important}.bleed{margin:0 -16px}.bleed .box{height:260px!important}.bcap{left:16px}
+ .tri{grid-template-columns:1fr 1fr 1fr;gap:6px}.tri .box{height:140px!important}.tri a{margin-top:0!important}
+}
+#cux-0:checked~.cnav .k0{display:flex}#cux-0:checked~.vp .track{transform:translateX(calc(-0 * ((100% - 2*12px)/3 + 12px)))}#cux-0:checked~.cnt .c0{display:inline}#cux-1:checked~.cnav .k1{display:flex}#cux-1:checked~.vp .track{transform:translateX(calc(-1 * ((100% - 2*12px)/3 + 12px)))}#cux-1:checked~.cnt .c1{display:inline}#cux-2:checked~.cnav .k2{display:flex}#cux-2:checked~.vp .track{transform:translateX(calc(-2 * ((100% - 2*12px)/3 + 12px)))}#cux-2:checked~.cnt .c2{display:inline}#cvis-0:checked~.cnav .k0{display:flex}#cvis-0:checked~.vp .track{transform:translateX(calc(-0 * ((100% - 3*12px)/4 + 12px)))}#cvis-0:checked~.cnt .c0{display:inline}#cvis-1:checked~.cnav .k1{display:flex}#cvis-1:checked~.vp .track{transform:translateX(calc(-1 * ((100% - 3*12px)/4 + 12px)))}#cvis-1:checked~.cnt .c1{display:inline}#cvis-2:checked~.cnav .k2{display:flex}#cvis-2:checked~.vp .track{transform:translateX(calc(-2 * ((100% - 3*12px)/4 + 12px)))}#cvis-2:checked~.cnt .c2{display:inline}#cvis-3:checked~.cnav .k3{display:flex}#cvis-3:checked~.vp .track{transform:translateX(calc(-3 * ((100% - 3*12px)/4 + 12px)))}#cvis-3:checked~.cnt .c3{display:inline}#cvis-4:checked~.cnav .k4{display:flex}#cvis-4:checked~.vp .track{transform:translateX(calc(-4 * ((100% - 3*12px)/4 + 12px)))}#cvis-4:checked~.cnt .c4{display:inline}#cvis-5:checked~.cnav .k5{display:flex}#cvis-5:checked~.vp .track{transform:translateX(calc(-5 * ((100% - 3*12px)/4 + 12px)))}#cvis-5:checked~.cnt .c5{display:inline}#cvis-6:checked~.cnav .k6{display:flex}#cvis-6:checked~.vp .track{transform:translateX(calc(-6 * ((100% - 3*12px)/4 + 12px)))}#cvis-6:checked~.cnt .c6{display:inline}#csh-0:checked~.cnav .k0{display:flex}#csh-0:checked~.vp .track{transform:translateX(calc(-0 * ((100% - 2*12px)/3 + 12px)))}#csh-0:checked~.cnt .c0{display:inline}#csh-1:checked~.cnav .k1{display:flex}#csh-1:checked~.vp .track{transform:translateX(calc(-1 * ((100% - 2*12px)/3 + 12px)))}#csh-1:checked~.cnt .c1{display:inline}#csh-2:checked~.cnav .k2{display:flex}#csh-2:checked~.vp .track{transform:translateX(calc(-2 * ((100% - 2*12px)/3 + 12px)))}#csh-2:checked~.cnt .c2{display:inline}#csh-3:checked~.cnav .k3{display:flex}#csh-3:checked~.vp .track{transform:translateX(calc(-3 * ((100% - 2*12px)/3 + 12px)))}#csh-3:checked~.cnt .c3{display:inline}.ph{border-radius:6px;overflow:hidden;background:var(--l1)}.ph img{display:block;width:100%;height:auto}
+@font-face{font-family:"Diatype Rounded";src:url(assets/fonts/diatype-rounded-1.woff2) format("woff2");font-weight:300}
+@font-face{font-family:"Diatype Rounded";src:url(assets/fonts/diatype-rounded-2.woff2) format("woff2");font-weight:400}
+@font-face{font-family:"Diatype Rounded";src:url(assets/fonts/diatype-rounded-3.woff2) format("woff2");font-weight:500}
+@font-face{font-family:"Diatype Rounded";src:url(assets/fonts/diatype-rounded-4.woff2) format("woff2");font-weight:900}
+:root{--bg:#f4f4f2;--paper:#fff;--ink:#1a1a1a;--mute:#8a8a8a;--l1:#ecece9;--l2:#d2d2cf;--l3:#bdbdb9;--acc:#d9542b;color-scheme:light}:root[data-theme="dark"]{--bg:#0d0d0c;--paper:#111110;--ink:#efeee9;--mute:#8e8d87;--l1:#1c1c1a;--l2:#2b2b28;--l3:#5c5b56;--acc:#ff7a4f;color-scheme:dark}#gnav nav a.on{color:#fff!important;font-weight:400}.tgl{justify-self:end;border:1.5px solid currentColor;border-radius:30px;padding:6px 14px;font-size:13px;color:inherit;display:inline-flex;gap:8px;align-items:center}.tgl i{width:12px;height:12px;border-radius:50%;border:1.5px solid currentColor;background:linear-gradient(90deg,currentColor 50%,transparent 50%)}.vrow{display:flex;gap:12px;overflow-x:auto;scroll-snap-type:x mandatory;scrollbar-width:thin;padding-bottom:6px}.vrow .ph{flex:0 0 auto;scroll-snap-align:start}.vrow .ph img{width:auto!important}@media (max-width:760px){.vrow .ph{height:300px!important}}
+body{font-family:"Diatype Rounded","Helvetica Neue",Helvetica,Arial,sans-serif;background:var(--bg);color:var(--ink)}
+.site{border:0}
+.site>header.hc{display:none}
+.site>main{padding-top:120px}
+#gnav{position:fixed;top:0;left:0;right:0;z-index:50;display:grid;grid-template-columns:1fr auto 1fr;align-items:center;padding:18px 40px;background:transparent;transition:transform .35s ease;mix-blend-mode:difference;color:#fff}
+#gnav.hide{transform:translateY(-110%)}
+#gnav .geb{font-weight:900;font-size:14px;line-height:1.3}
+#gnav nav{display:flex;gap:clamp(18px,2.6vw,40px);font-size:clamp(28px,3.4vw,46px);letter-spacing:-.02em;line-height:1}
+#gnav nav a{opacity:.5;transition:opacity .2s}
+#gnav nav a:hover,#gnav nav a.on{opacity:1}
+#gnav nav a.on{text-decoration:underline;text-decoration-thickness:2px;text-underline-offset:6px}
+@media (max-width:760px){
+ #gnav{position:absolute;mix-blend-mode:normal;padding:16px;display:flex;justify-content:space-between;align-items:center;color:var(--ink)}
+ #gnav nav{position:fixed;left:0;right:0;bottom:0;justify-content:space-around;font-size:19px;padding:14px 10px calc(14px + env(safe-area-inset-bottom));background:color-mix(in srgb,var(--paper) 88%,transparent);backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);border-top:1px solid var(--l2);transition:transform .35s ease}
+ #gnav.hide{transform:none} #gnav.hide nav{transform:translateY(110%)}
+ .site>main{padding-top:64px} body{padding-bottom:70px}
+ .ntl{bottom:84px!important}
+}
+/* hover on landing thumbnails */
+#home .two3 a,#home .track .it{display:block}
+#home .two3 .ph img,#home .track .ph img{transition:transform .7s cubic-bezier(.2,.7,.2,1),filter .4s;filter:none}
+#home .two3 a:hover .ph img,#home .track .it:hover .ph img{transform:scale(1.045);filter:none}
+#home .two3 .ph,#home .track .ph{position:relative}
+#home .two3 .ph::after,#home .track .ph::after{content:"View project →";position:absolute;left:12px;bottom:12px;padding:5px 12px;border-radius:30px;background:var(--ink);color:var(--bg);font-size:12px;opacity:0;transform:translateY(6px);transition:.3s}
+#home .two3 a:hover .ph::after,#home .track .it:hover .ph::after{opacity:1;transform:none}
+#home .two3 a:hover .cap b{text-decoration:underline}
+/* random flip cards */
+.rnd{display:flex;margin:36px 0 8px} .rnd-right{justify-content:flex-end;padding-right:6%} .rnd-left{justify-content:flex-start;padding-left:8%} .rnd-center{justify-content:center}
+.flip{width:200px;aspect-ratio:3/4;perspective:900px;position:relative;transform:rotate(var(--r));padding:0;border:0;background:none;cursor:pointer}
+.flip .fi{position:absolute;inset:0;backface-visibility:hidden;-webkit-backface-visibility:hidden;border-radius:6px;overflow:hidden;transition:transform .7s cubic-bezier(.3,.7,.2,1);box-shadow:0 10px 30px rgba(0,0,0,.45)}
+.flip .fr-front img{width:100%;height:100%;object-fit:cover;display:block}
+.flip .fr-back{transform:rotateY(180deg);background:var(--ink);color:var(--bg);display:flex;flex-direction:column;gap:8px;padding:16px;text-align:left;font-size:13px;line-height:1.4}
+.flip .fr-back b{font-weight:900}
+.flip.on .fr-front{transform:rotateY(-180deg)} .flip.on .fr-back{transform:rotateY(0)}
+@media (max-width:760px){.flip{width:150px}}
+/* slideshow + carousel */
+.ss .tr{display:flex;overflow-x:auto;scroll-snap-type:x mandatory;scrollbar-width:none;gap:12px}
+.ss .tr::-webkit-scrollbar{display:none}
+.ss .sl{flex:0 0 100%;scroll-snap-align:start;margin:0}
+.ss.car2 .sl{flex:0 0 calc((100% - 24px)/3)}
+@media (max-width:760px){.ss.car2 .sl{flex-basis:78%}}
+.ss .sl .ph{height:var(--h,560px)} .ss .sl .ph img{height:100%;object-fit:contain;background:var(--l1)}
+.ss.car2 .sl .ph{height:var(--h,380px)} .ss.car2 .sl .ph img{object-fit:cover}
+.ssn{display:flex;align-items:center;justify-content:space-between;margin-top:10px;font-size:12px;color:var(--mute)}
+.ssn button{width:36px;height:36px;border-radius:50%;border:1px solid var(--ink);font-size:18px;line-height:1}
+.ssn button:disabled{opacity:.3}
+/* video */
+.vhero{position:relative;border-radius:6px;overflow:hidden;background:#000}
+.vhero video{display:block;width:100%;height:auto}
+.vtitle{position:absolute;left:24px;bottom:24px;right:auto;background:rgba(255,255,255,.8);color:#111;padding:10px 18px;border-radius:4px;max-width:calc(100% - 48px)}
+.vtitle h1,.vtitle h2{margin:0;font-weight:400;letter-spacing:-.02em;font-size:clamp(22px,3.4vw,44px);line-height:1.05}
+.vtitle p{font-size:12px;margin-top:4px;color:#333}
+@media (max-width:760px){.vtitle{left:10px;bottom:10px;padding:6px 10px}}
+/* about */
+.about2{display:grid;grid-template-columns:1fr 2fr;gap:32px;align-items:start}
+.about2 .ph{aspect-ratio:4/5} .about2 .ph img{height:100%;object-fit:cover}
+.about2 p{max-width:640px;margin-top:12px}
+.about2 .big{font-size:clamp(20px,2.2vw,28px);line-height:1.3;letter-spacing:-.01em;margin-top:0}
+.links{display:flex;gap:8px;flex-wrap:wrap;margin-top:22px}
+@media (max-width:760px){.about2{grid-template-columns:1fr}}
+.pill.solid{background:var(--ink);color:var(--bg);border-color:var(--ink)} .pill{border-color:var(--ink)}
+.fbox a{text-decoration:underline}
 
-      <a class="card" href="./design-system/">
-        <div class="media"><img src="assets/img/ds_hero.webp" width="1400" height="977" loading="lazy" decoding="async" alt="MDPI design system applied to web, mobile, print and tote bags"></div>
-        <div class="body">
-          <h3><span class="num">2</span>MDPI Design System</h3>
-          <p class="what">One visual and design system for a publisher with 8 initiatives in 17 locations, each of which had built its own look.</p>
-          <dl class="facts"><dt>Role</dt><dd>Brand &amp; System Designer, print and digital</dd><dt>Year</dt><dd>2021–2024 · 4 years</dd></dl>
-          <div class="result td"><b>8 of 8</b><span>initiatives now run on one master system. New ones start on it from day one.</span></div>
-          <span class="cta">Read case study <span>→</span></span>
-        </div>
-      </a>
+:root{--t1:clamp(30px,3.6vw,48px);--t2:clamp(20px,1.8vw,26px);--t3:16px}
+html{overflow-x:clip}
+body{font-size:var(--t3);line-height:1.5}
+.hl,.h1,#gnav nav,.vtitle h1,.ctitle h1{font-size:var(--t1)!important;line-height:1.08!important;letter-spacing:-.02em!important;font-weight:400!important}
+.h2,.ptitle3 h3,.lead,.vt,.next .h1,.stats b,.finding b,.vtitle h2,.ctitle h2,.big{font-size:var(--t2)!important;line-height:1.25!important;letter-spacing:-.01em!important;font-weight:400!important}
+p,li,.eb,.tag,.cap,.cap *,.meta,.meta b,.tldr div,.tldr b,.steps div,.steps b,.steps span,.stats span,.out li,.back,.res,.pill,.ann,.chapnav,.chapnav a,.ssn,.ft,.ft a,.about2 p,.about2 .big,.txt p,.vtitle p,.rowhead,.rowhead *{font-size:var(--t3)!important}
+.about2 .big{line-height:1.5!important;letter-spacing:0!important}
+.tag{text-transform:none;letter-spacing:0;color:var(--mute)}
+#gnav .geb{font-weight:400!important;font-size:var(--t3)!important}
+.ctitle{text-align:center;max-width:860px;margin:56px auto 0}.ctitle h2{color:var(--mute);margin-top:10px}.ctitle p{color:var(--mute);margin-top:10px}
+.ptitle3{display:block!important}
+.ft{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;padding:40px 40px 48px;color:var(--mute)}.ft span:last-child{display:flex;gap:18px}.ft a{text-decoration:underline}
+@media (max-width:760px){.ft{padding:28px 16px 90px}}
+/* full-bleed sliders */
+.fbx{margin-left:calc(50% - 50vw);margin-right:calc(50% - 50vw)}
+.sl2{position:relative}
+.sl2 .tr2{display:flex;gap:12px;overflow-x:auto;scroll-snap-type:x mandatory;scrollbar-width:none;padding:0 40px;scroll-padding:0 40px}
+.sl2:not(.fbx) .tr2{padding:0;scroll-padding:0}
+.sl2 .tr2::-webkit-scrollbar{display:none}
+.sl2 .tr2>*{flex:0 0 var(--w,calc((100% - 12px)/2));scroll-snap-align:start;margin:0}
+.sl2 .pv,.sl2 .nx{position:absolute;top:calc(var(--ih,50%) / 2);transform:translateY(-50%);width:46px;height:46px;border-radius:50%;background:var(--paper);color:var(--ink);border:1px solid var(--ink);font-size:20px;line-height:1;z-index:3;cursor:pointer}
+.sl2 .pv{left:16px}.sl2 .nx{right:16px}.sl2 button:disabled{opacity:0;pointer-events:none}
+.sl2 .cap{margin-top:8px}
+.sl2.land{--w:calc((100vw - 80px - 36px)/4);--ih:300px}
+.sl2.land .ph{height:300px}
+@media (max-width:760px){.sl2 .tr2{padding:0 16px;scroll-padding:0 16px}.sl2.land{--w:72vw;--ih:240px}.sl2.land .ph{height:240px}.sl2.pair{--w:85%}.sl2 .pv{left:6px}.sl2 .nx{right:6px}}
+.sl2.pair{--ih:520px}.sl2.pair .ph{height:520px}
+@media (max-width:760px){.sl2.pair{--ih:300px}.sl2.pair .ph{height:300px}}
+/* Wäscheleine */
+.sl2.wlw{--w:100%;--ih:520px}
+.wl{position:relative;display:flex;justify-content:space-evenly;align-items:flex-start;height:560px;padding-top:34px}
+.wl::before{content:"";position:absolute;left:0;right:0;top:16px;border-top:1.5px solid var(--ink);border-radius:50%/0 0 30px 30px}
+.wl .pin{position:relative;width:29%}
+.wl .pin::before{content:"";position:absolute;top:-22px;left:50%;width:8px;height:26px;margin-left:-4px;background:var(--ink);border-radius:2px;z-index:2}
+.wl .pin .ph img{width:100%;height:100%;object-fit:cover}
+.wl .pin:nth-child(1){margin-top:0}.wl .pin:nth-child(1) .ph{height:380px}
+.wl .pin:nth-child(2){margin-top:30px}.wl .pin:nth-child(2) .ph{height:440px}
+.wl .pin:nth-child(3){margin-top:8px}.wl .pin:nth-child(3) .ph{height:340px}
+@media (max-width:760px){.wl{height:330px}.wl .pin:nth-child(1) .ph{height:200px}.wl .pin:nth-child(2) .ph{height:250px}.wl .pin:nth-child(3) .ph{height:180px}.sl2.wlw{--ih:300px}}
+/* visual blocks */
+.vp2{margin-top:110px}.vh2{display:flex;justify-content:space-between;align-items:baseline;gap:16px;margin-bottom:18px;flex-wrap:wrap}
+.vh2 .eb{color:var(--mute)}.vh2 .back{margin:0}
+.fbimg img{display:block;width:100%;height:auto}
+.vhero .vtitle h2{margin:0}
+.ft-hero{position:relative;border-radius:6px;overflow:hidden}
+:root{--bg:#fff;--paper:#fff}
+#gnav{mix-blend-mode:normal!important;color:var(--ink)!important}
+#gnav nav a.on{color:var(--ink)!important}
+.st{display:inline-flex;align-items:center;gap:8px;margin-left:18px;color:var(--mute)}
+.st i{width:8px;height:8px;border-radius:50%;background:#22b455;animation:blink 2.6s ease-in-out infinite}
+@keyframes blink{0%,100%{opacity:1;box-shadow:0 0 0 0 rgba(34,180,85,.45)}50%{opacity:.35;box-shadow:0 0 0 6px rgba(34,180,85,0)}}
+@media (prefers-reduced-motion:reduce){.st i{animation:none}}
+.cap,.cap *,.eb,.vh2 .eb,.st,figcaption{font-size:12px!important}
+.about2 p,.about2 .big{font-size:26px!important;line-height:1.3!important;letter-spacing:-.01em!important}
+@media (max-width:760px){.about2 p,.about2 .big{font-size:20px!important}.st span{display:none}}
+.sl2 .pv,.sl2 .nx{background:none!important;border:0!important;width:auto!important;height:auto!important;border-radius:0!important;font-size:var(--t1)!important;color:#fff!important;text-shadow:0 1px 6px rgba(0,0,0,.45);padding:0 4px}
+.wl::before,.wl .pin::before{display:none!important}
+.sl2 a{display:block}
+.gr{display:flex;gap:14px;margin-top:14px;align-items:flex-start}.gr figure{margin:0;min-width:0}.gr img{display:block;width:100%;height:auto;border-radius:4px}@media (max-width:760px){.gr{flex-direction:column;padding:0!important}}
+.ptitle3 h3{text-align:center}
+.about2 p,.about2 .big{color:var(--ink)!important}
+.lead{max-width:none!important}
+.plist2{margin-top:40px}
+.pl2{margin-top:96px}.pl2:first-child{margin-top:56px}
+.pl2 .h2{margin:0}.pl2 p{margin-top:6px;max-width:none}.pl2 .eb{color:var(--mute);margin-top:4px}
+.pl2 .back{display:inline-block;margin:14px 0 18px}
+.pl2 .pimg{display:block}.pl2 .pimg .ph{height:auto!important}.pl2 .pimg img{width:100%;height:auto!important;object-fit:initial!important}
+.vh2{display:block!important;margin-bottom:22px!important}.vh2 .vt{margin:0}.vh2 p{margin-top:6px}.vh2 .eb{margin-top:4px}.vh2 .back{display:inline-block;margin-top:14px!important}
+/* uncropped visual images */
+.sl2.pair .tr2>*{flex:0 0 auto!important}
+.sl2.pair .ph{height:520px!important;background:none!important;border-radius:0}
+.sl2.pair .ph img{height:100%!important;width:auto!important;object-fit:contain!important}
+@media (max-width:760px){.sl2.pair .ph{height:300px!important}.sl2.pair .ph img{max-width:85vw}}
+.wl .pin{width:auto!important;max-width:31%;display:flex;justify-content:center}
+.wl .ph{background:none!important;border-radius:0!important;height:auto!important}
+.wl .pin .ph img{width:auto!important;max-width:100%;object-fit:contain!important;border-radius:0!important}
+.wl .pin:nth-child(1) .ph img{height:380px}.wl .pin:nth-child(2) .ph img{height:440px}.wl .pin:nth-child(3) .ph img{height:340px}
+@media (max-width:760px){.wl .pin:nth-child(1) .ph img{height:200px}.wl .pin:nth-child(2) .ph img{height:250px}.wl .pin:nth-child(3) .ph img{height:180px}}
+.vhero{background:none!important;border-radius:0}
+/* product subpages */
+.tldr{border:0!important;border-radius:0!important;gap:24px;margin-top:28px!important;overflow:visible!important}
+.tldr div{border:0!important;border-top:1px solid var(--ink)!important;padding:10px 0 0!important;background:none!important}
+.tldr b{font-size:12px!important;letter-spacing:.04em!important}
+.chapnav{top:88px!important;transition:top .35s ease;z-index:20!important;gap:6px!important;border-bottom:0!important;padding:12px 0!important;background:var(--paper)!important}
+body:has(#gnav.hide) .chapnav{top:0!important}
+.chapnav a{padding:6px 14px;border-radius:30px;color:var(--mute)}
+.chapnav a.on{background:var(--ink);color:var(--paper)!important}
+.sec2{display:grid;grid-template-columns:1fr 1fr;column-gap:40px;margin-top:88px;scroll-margin-top:160px}
+.sec2>*{grid-column:2;margin-top:0}
+.sec2>*+*{margin-top:14px}
+.sec2>h2{grid-column:1;grid-row:1 / span 6;align-self:start;margin:0!important}
+.sec2>div:has(.ph),.sec2>.ph,.sec2>p.cap{grid-column:1 / -1;margin-top:24px}
+.sec2 p{max-width:none}
+@media (max-width:760px){.chapnav{top:0!important}.sec2{grid-template-columns:1fr}.sec2>*{grid-column:1}.sec2>h2{grid-row:auto;margin-bottom:12px!important}}
+/* live site: hide wireframe review tools */
+#nt,.ntl,.where,.ann,body.notes .ann{display:none!important}
+</style></head><body>
+<header id="gnav"><span class="gl"><a class="geb" href="#home">Product Designer · Basel</a><span class="st" role="status"><i aria-hidden="true"></i><span>Open for design roles</span></span></span><nav aria-label="Main"><a href="#home" data-k="home">All</a><a href="#product" data-k="product">Product</a><a href="#visual" data-k="visual">Visual</a><a href="#home-about" data-k="about">About</a></nav><button class="tgl" id="tgl" type="button" aria-pressed="false"><i></i><span>Dark</span></button></header>
+<input type="checkbox" id="nt"><label class="ntl" for="nt">Notes on/off</label>
+<main class="pages" style="padding:0"><section class="page" id="home"><div class="site"><header class="hc"><nav><a href="#home" class="on">All</a><a href="#product" class="">Product</a><a href="#visual" class="">Visual</a><a href="#home-about" class="">About</a></nav></header><main>
+<div class="ctitle"><h1 class="hl">I love bringing clarity to systems <span>and courage to visuals.</span></h1></div>
+<p class="ann">Header: title top left in Black weight; menu at H1 size, transparent, hides on scroll down and returns on scroll up. On mobile the menu sits at the bottom for the thumb.</p>
+<div class="pair3"><div class="ptitle3"><h3>Books, on paper <span>and on screen.</span></h3></div><div class="two3"><a href="#work-books"><div class="ph" style="height:280px"><img src="assets/img/p001.webp" alt="Two phones showing the redesigned MDPI Books pages" style="height:100%;object-fit:cover;object-position:center"></div><p class="cap"><b>MDPI Books</b><span>● Product · 2023–2024</span></p></a><a href="#visual-shanghai"><div class="ph" style="height:280px"><img src="assets/img/p002.webp" alt="Shanghai Biennale banners at Power Station of Art" style="height:100%;object-fit:cover;object-position:center"></div><p class="cap"><b>Shanghai Biennale</b><span>○ Visual · 2018</span></p></a></div></div><div class="pair3"><div class="ptitle3"><h3>Scientific imagery, <span>turned into a system.</span></h3></div><div class="two3"><a href="#work-ds"><div class="ph" style="height:280px"><img src="assets/img/p003.webp" alt="Halftone scientific imagery in four colours from the MDPI design system" style="height:100%;object-fit:cover;object-position:center"></div><p class="cap"><b>Unified Design System</b><span>● Product · 2020–2024</span></p></a><a href="#visual-living"><div class="ph" style="height:280px"><img src="assets/img/p004.webp" alt="Living Matters posters" style="height:100%;object-fit:cover;object-position:center"></div><p class="cap"><b>Living Matters</b><span>○ Visual · 2020–2021</span></p></a></div></div><div class="pair3"><div class="ptitle3"><h3>Listening to people’s stories <span>before designing.</span></h3></div><div class="two3"><a href="#work-hub"><div class="ph" style="height:280px"><img src="assets/img/p005.webp" alt="Affinity map from the User Hub interviews" style="height:100%;object-fit:cover;object-position:center"></div><p class="cap"><b>MDPI User Hub</b><span>● Product · 2025</span></p></a><a href="#visual-mama"><div class="ph" style="height:280px"><video data-mama autoplay muted loop playsinline aria-label="MAMA title animation" style="width:100%;height:100%;object-fit:cover"></video></div><p class="cap"><b>MAMA</b><span>○ Visual · 2022</span></p></a></div></div>
+<p class="ann">Pairs (D): product left, visual right, one sentence that links them. Each half opens its own page.</p>
 
-      <a class="card" href="./user-hub/">
-        <div class="media"><img src="assets/img/hub_hero.webp" width="1400" height="977" loading="lazy" decoding="async" alt="Affinity map with more than 200 sticky notes from user interviews"></div>
-        <div class="body">
-          <h3><span class="num">3</span>MDPI User Hub</h3>
-          <p class="what">Research behind MDPI’s unified account dashboard. Satisfaction scores looked healthy, yet 1.28M visits dropped off in the submission flow.</p>
-          <dl class="facts"><dt>Role</dt><dd>UX Research Lead</dd><dt>Year</dt><dd>2025 · 4 months</dd></dl>
-          <div class="result th"><b>6 patterns</b><span>from 7 interviews became the evidence base for User Hub’s design direction.</span></div>
-          <span class="cta">Read case study <span>→</span></span>
-        </div>
-      </a>
+<div class="hr"></div>
+<div class="sec" id="home-about" style="margin-top:96px"><div class="about2">
+<div class="ph"><img src="assets/img/p006.webp" alt="Gaby Luong relaxing on red sandstone at sunset, raising a small bottle"></div>
+<div>
+<p class="big">I’m a product designer from Basel. I build calm, functional systems that make complex products clear and easy to trust.</p>
+<p>I studied Visual Communication with a focus on typography. After graduating in 2015, I moved to London and worked for the creative agency SPIN and for Victoria Beckham. I had always been drawn to Dutch culture, so I moved on to Amsterdam for four years, working mostly for my own clients. Running my own practice taught me to roll up my sleeves. I like to get into the details myself, and I do my best work in a team.</p>
+<p>To me, good design is like a forest. Once you’re in it, everything feels natural: people find their way, and no one notices how much is at work around them. That’s the kind of forest I want to help companies grow.</p>
 
-    </div>
-  </section>
+<p>Away from the screen, you’ll find me hiking, training BJJ, enjoying good food or tracking down good architecture.</p>
+<p class="big" style="margin-top:28px">Let’s talk, about a project, over a coffee or a game of chess.</p>
+<div class="links"><a class="pill solid" data-cv href="#">CV (PDF) ↓</a><a class="pill" href="mailto:info@gabyluong.com">E-mail</a><a class="pill" href="https://www.linkedin.com/in/gaby-luong-458124151" target="_blank" rel="noopener">LinkedIn ↗</a></div>
+<p class="ann">About text refined: short paragraphs, one idea each.</p>
+</div></div></div>
+</main><footer class="ft"><span>© 2026 Gaby Luong · Product Designer · Basel</span><span><a href="mailto:info@gabyluong.com">E-mail</a><a href="https://www.linkedin.com/in/gaby-luong-458124151" target="_blank" rel="noopener">LinkedIn ↗</a><a data-cv href="#">CV ↓</a></span></footer></div><div class="where">Landing · All</div></section><section class="page" id="product"><div class="site"><header class="hc"><nav><a href="#home" class="">All</a><a href="#product" class="on">Product</a><a href="#visual" class="">Visual</a><a href="#home-about" class="">About</a></nav></header><main>
+<div class="ctitle"><h1 class="hl">UX Research, Design Systems &amp; UI Design</h1><p>Case studies from research to launch, mostly in scientific publishing.</p></div>
+<div class="plist2"><article class="pl2"><h2 class="h2">Unified design system for MDPI</h2><p>Eight initiatives, one visual language, built from MDPI’s own science.</p><p class="eb">Brand/System Designer · 2020–2024</p><a class="back" href="#work-ds">Read My Case Study →</a><a href="#work-ds" class="pimg"><div class="ph" ><img loading="lazy" decoding="async" src="assets/img/p007.webp" alt="MDPI design system across web, mobile and print" style="height:100%;width:100%;object-fit:cover;object-position:center"></div></a></article><article class="pl2"><h2 class="h2">MDPI Books: publishing platform redesign</h2><p>Open access books that are easier to find and easier to publish.</p><p class="eb">Product Designer · 2023–2024</p><a class="back" href="#work-books">Read My Case Study →</a><a href="#work-books" class="pimg"><div class="ph" ><img loading="lazy" decoding="async" src="assets/img/p008.webp" alt="Redesigned MDPI Books pages on mobile" style="height:100%;width:100%;object-fit:cover;object-position:center"></div></a></article><article class="pl2"><h2 class="h2">MDPI User Hub: UX research</h2><p>Why satisfied users still left right after login.</p><p class="eb">Lead UX Research · 2025</p><a class="back" href="#work-hub">Read My Case Study →</a><a href="#work-hub" class="pimg"><div class="ph" ><img loading="lazy" decoding="async" src="assets/img/p009.webp" alt="Affinity map with sticky notes from the User Hub interviews" style="height:100%;width:100%;object-fit:cover;object-position:center"></div></a></article><article class="pl2"><h2 class="h2">Altstadt Bern: UX research beyond the screen</h2><p>Why people walk through Bern’s lower Old Town without stopping.</p><p class="eb">UX Researcher · 2025</p><a class="back" href="#work-bern">Read My Case Study →</a><a href="#work-bern" class="pimg"><div class="ph" ><img loading="lazy" decoding="async" src="assets/img/p010.webp" alt="Map of Bern’s lower Old Town with research notes" style="height:100%;width:100%;object-fit:cover;object-position:center"></div></a></article></div></main><footer class="ft"><span>© 2026 Gaby Luong · Product Designer · Basel</span><span><a href="mailto:info@gabyluong.com">E-mail</a><a href="https://www.linkedin.com/in/gaby-luong-458124151" target="_blank" rel="noopener">LinkedIn ↗</a><a data-cv href="#">CV ↓</a></span></footer></div><div class="where">Product · single line</div></section><section class="page" id="visual"><div class="site"><header class="hc"><nav><a href="#home" class="">All</a><a href="#product" class="">Product</a><a href="#visual" class="on">Visual</a><a href="#home-about" class="">About</a></nav></header><main>
+<div class="ctitle"><h1 class="hl">Identity, Typography, Print &amp; Motion Design</h1><p>Selected work, most of it from my years as an independent designer in London and Amsterdam.</p></div>
+<div class="vp2" id="v-shanghai"><div class="vh2"><h2 class="vt">Shanghai Biennale</h2><p>An identity built from the biennale’s own typeface, from catalogue to museum facade.</p><p class="eb">Art Director &amp; Graphic Designer · 2018</p><a class="back" href="#visual-shanghai">Tell Me More →</a></div><div class="sl2 pair"><div class="tr2"><a href="#visual-shanghai"><div class="ph"><img loading="lazy" decoding="async" src="assets/img/p011.webp" alt="Shanghai Biennale 2018 catalogue cover in green and magenta"></div></a><a href="#visual-shanghai"><div class="ph"><img loading="lazy" decoding="async" src="assets/img/p012.webp" alt="Shanghai Biennale street banner outside the museum"></div></a><a href="#visual-shanghai"><div class="ph"><img loading="lazy" decoding="async" src="assets/img/p002.webp" alt="Biennale banners at the entrance of Power Station of Art"></div></a><a href="#visual-shanghai"><div class="ph"><img loading="lazy" decoding="async" src="assets/img/p013.webp" alt="Catalogue spread with artwork photography"></div></a><a href="#visual-shanghai"><div class="ph"><img loading="lazy" decoding="async" src="assets/img/p014.webp" alt="Catalogue spread with archive images and texts"></div></a></div><button class="pv" aria-label="Previous">←</button><button class="nx" aria-label="Next">→</button></div></div>
+<div class="vp2" id="v-living"><div class="vh2"><h2 class="vt">Living Matters</h2><p>Scientific imagery turned into a typographic system on thin riso paper.</p><p class="eb">Graphic Designer · 2020–2021</p><a class="back" href="#visual-living">Tell Me More →</a></div><a href="#visual-living" class="fbx fbimg" style="display:block"><img loading="lazy" decoding="async" src="assets/img/p015.webp" alt="Four Living Matters risograph posters on stands"></a></div>
+<div class="vp2" id="v-christofori"><div class="vh2"><h2 class="vt">Christofori</h2><p>Identity, book and packaging for a fashion label, down to the woven label.</p><p class="eb">Identity · Book · Packaging · 2020–2022</p></div><div class="sl2 wlw"><div class="tr2"><div class="wl"><div class="pin"><div class="ph"><img loading="lazy" decoding="async" src="assets/img/p016.webp" alt="Red Christofori book cover"></div></div><div class="pin"><div class="ph"><img loading="lazy" decoding="async" src="assets/img/p017.webp" alt="Open Christofori book with a photograph"></div></div><div class="pin"><div class="ph"><img loading="lazy" decoding="async" src="assets/img/p018.webp" alt="Christofori book on red endpapers"></div></div></div><div class="wl"><div class="pin"><div class="ph"><img loading="lazy" decoding="async" src="assets/img/p019.webp" alt="Acrylic Christofori shoebox with the red book"></div></div><div class="pin"><div class="ph"><img loading="lazy" decoding="async" src="assets/img/p020.webp" alt="Christofori label in a checked jacket lining"></div></div><div class="pin"><div class="ph"><img loading="lazy" decoding="async" src="assets/img/p021.webp" alt="Christofori label on houndstooth fabric"></div></div></div><div class="wl"><div class="pin"><div class="ph"><img loading="lazy" decoding="async" src="assets/img/p022.webp" alt="Vertical Christofori label on blue velvet"></div></div><div class="pin"><div class="ph"><img loading="lazy" decoding="async" src="assets/img/p023.webp" alt="Christofori wordmark over an outlined script"></div></div><div class="pin"><div class="ph"><img loading="lazy" decoding="async" src="assets/img/p024.webp" alt="Christofori shoes with logo on orange insoles"></div></div></div></div><button class="pv" aria-label="Previous">←</button><button class="nx" aria-label="Next">→</button></div></div>
+<div class="vp2" id="v-mama"><div class="vh2"><h2 class="vt">MAMA</h2><p>Film titles that move between control and vulnerability, like the film.</p><p class="eb">Art Director · 2022</p><a class="back" href="#visual-mama">Tell Me More →</a></div><a href="#visual-mama" style="display:block"><div class="vhero"><video data-mama autoplay muted loop playsinline aria-label="MAMA film title animation"></video></div></a></div>
+<div class="vp2" id="v-collect"><div class="vh2"><h2 class="vt">Collect at Saatchi Gallery</h2><p>Identity and wayfinding for an international craft fair in London.</p><p class="eb">Designer at SPIN · 2016–2017</p></div><div class="sl2 pair"><div class="tr2"><div class="ph"><img loading="lazy" decoding="async" src="assets/img/p025.webp" alt="Collect totem with large chevron graphics outside the Saatchi Gallery"></div><div class="ph"><img loading="lazy" decoding="async" src="assets/img/p026.webp" alt="Collect floor directory sign on a white gallery wall"></div><div class="ph"><img loading="lazy" decoding="async" src="assets/img/p027.webp" alt="Collect Open Talks wall with scattered chevron pattern"></div><div class="ph"><img loading="lazy" decoding="async" src="assets/img/p028.webp" alt="Collect wayfinding pictograms and arrows in white on black"></div><div class="ph"><img loading="lazy" decoding="async" src="assets/img/p029.webp" alt="Collect directional signs for galleries, toilets and entrance"></div><div class="ph"><img loading="lazy" decoding="async" src="assets/img/p030.webp" alt="Collect chevron graphics and gallery sign along a staircase"></div><div class="ph"><img loading="lazy" decoding="async" src="assets/img/p031.webp" alt="Collect poster series in black and white"></div><div class="ph"><img loading="lazy" decoding="async" src="assets/img/p032.webp" alt="Stack of Collect catalogues with a ceramics cover"></div><div class="ph"><img loading="lazy" decoding="async" src="assets/img/p033.webp" alt="Collect exhibition: grid of printed object photographs on the floor"></div></div><button class="pv" aria-label="Previous">←</button><button class="nx" aria-label="Next">→</button></div></div>
+<div class="vp2" id="v-bbc"><div class="vh2"><h2 class="vt">BBC Reith</h2><p>Posters introducing the BBC’s own typeface.</p><p class="eb">Typography · Poster · 2017</p></div><div class="fbx fbimg"><img loading="lazy" decoding="async" src="assets/img/p034.webp" alt="Three BBC Reith typeface posters on black"></div></div>
+<div class="vp2" id="v-songe"><div class="vh2"><h2 class="vt">Songe Creux</h2><p>Lookbooks and identity for a fashion label, in black, white and red.</p><p class="eb">Lookbook · Identity · 2019–2022</p></div><div class="sl2 wlw"><div class="tr2"><div class="wl"><div class="pin"><div class="ph"><img loading="lazy" decoding="async" src="assets/img/p035.webp" alt="Songe Creux lookbook and identity, image 1"></div></div><div class="pin"><div class="ph"><img loading="lazy" decoding="async" src="assets/img/p036.webp" alt="Songe Creux lookbook and identity, image 2"></div></div><div class="pin"><div class="ph"><img loading="lazy" decoding="async" src="assets/img/p037.webp" alt="Songe Creux lookbook and identity, image 3"></div></div></div><div class="wl"><div class="pin"><div class="ph"><img loading="lazy" decoding="async" src="assets/img/p038.webp" alt="Songe Creux lookbook and identity, image 4"></div></div><div class="pin"><div class="ph"><img loading="lazy" decoding="async" src="assets/img/p039.webp" alt="Songe Creux lookbook and identity, image 5"></div></div><div class="pin"><div class="ph"><img loading="lazy" decoding="async" src="assets/img/p040.webp" alt="Songe Creux lookbook and identity, image 6"></div></div></div><div class="wl"><div class="pin"><div class="ph"><img loading="lazy" decoding="async" src="assets/img/p041.webp" alt="Songe Creux lookbook and identity, image 7"></div></div><div class="pin"><div class="ph"><img loading="lazy" decoding="async" src="assets/img/p042.webp" alt="Songe Creux lookbook and identity, image 8"></div></div><div class="pin"><div class="ph"><img loading="lazy" decoding="async" src="assets/img/p043.webp" alt="Songe Creux lookbook and identity, image 9"></div></div></div><div class="wl"><div class="pin"><div class="ph"><img loading="lazy" decoding="async" src="assets/img/p044.webp" alt="Songe Creux lookbook and identity, image 10"></div></div><div class="pin"><div class="ph"><img loading="lazy" decoding="async" src="assets/img/p045.webp" alt="Songe Creux lookbook and identity, image 11"></div></div></div></div><button class="pv" aria-label="Previous">←</button><button class="nx" aria-label="Next">→</button></div></div>
+<div class="vp2" id="v-sfdf"><div class="vh2"><h2 class="vt">Samsung Fashion &amp; Design Fund</h2><p>Identity and website for a fund that supports young fashion designers.</p><p class="eb">Designer at SPIN · 2016–2017</p></div><div class="vhero"><img loading="lazy" decoding="async" src="assets/img/p046.webp" alt="SFDF logo: S F D F in a black circle and in a pink-to-orange circle" style="display:block;width:100%"></div></div>
+<div class="vp2" id="v-gmyb"><div class="vh2"><h2 class="vt">Give me your bones</h2><p>[MISSING: one sentence about the project]</p><p class="eb">Editorial · Print · [MISSING: year]</p></div><div class="sl2 pair"><div class="tr2"><div class="ph"><img loading="lazy" decoding="async" src="assets/img/p047.webp" alt="Stack of Give me your bones booklets with a red hand-drawn shape"></div><div class="ph"><img loading="lazy" decoding="async" src="assets/img/p048.webp" alt="Hand holding open Give me your bones with green pages and dense text"></div><div class="ph"><img loading="lazy" decoding="async" src="assets/img/p049.webp" alt="Close-up of a green printed block over small typeset text"></div></div><button class="pv" aria-label="Previous">←</button><button class="nx" aria-label="Next">→</button></div></div>
+<p class="ann">Templates: two-up slider (Shanghai, Collect, Give me your bones), full bleed (Living Matters, BBC), three staggered per slide (Christofori, Songe Creux), footage (MAMA, SFDF). Images with a subpage link to it.</p>
+</main><footer class="ft"><span>© 2026 Gaby Luong · Product Designer · Basel</span><span><a href="mailto:info@gabyluong.com">E-mail</a><a href="https://www.linkedin.com/in/gaby-luong-458124151" target="_blank" rel="noopener">LinkedIn ↗</a><a data-cv href="#">CV ↓</a></span></footer></div><div class="where">Visual · editorial</div></section><section class="page" id="work-ds"><div class="site">
+<header class="hc"><nav><a href="#home" class="">All</a><a href="#product" class="on">Product</a><a href="#visual" class="">Visual</a><a href="#home-about" class="">About</a></nav></header>
+<main><a class="back" href="#product">← Product</a>
+<div style="margin-top:14px"><h1 class="h1">Unified design system for MDPI</h1><p class="eb" style="margin-top:6px">Brand/System Designer · 2020–2024 · Print and digital</p></div>
+<p class="lead">A unified design system for MDPI, a scientific publisher with eight research initiatives in 17 locations. What began as a brand identity in print grew into a four-year engagement and one system for print and digital. Today all eight initiatives build on one master template, and new ones start on it from day one.</p>
+<p class="eb" style="margin-top:10px">A design system case study by Gaby Luong, Product Designer in Basel. <a href="#home" style="text-decoration:underline">More work on gabyluong.ch</a></p>
+<div class="tldr" id="work-ds-summary"><div><b>Problem</b>25 years, 8 initiatives, 17 locations and no shared brand.</div><div><b>My role</b>Brand/System Designer, from print identity to digital design system.</div><div><b>What I did</b>Survey, halftone visual language, Figma foundations, tokens, 50+ components, rollout.</div><div><b>Result</b>8 initiatives on one master template. New ones start on it from day one.</div></div><div style="margin-top:24px"><div class="ph" style=""><img loading="lazy" decoding="async" src="assets/img/p050.webp" alt="MDPI design system applied across web, mobile, layout and printed brand materials"></div></div>
+<p class="ann">Summary first: a recruiter who reads only this box has the whole story.</p>
+<nav class="chapnav"><a href="#work-ds-summary">Summary</a><a href="#work-ds-problem">Problem</a><a href="#work-ds-role">My role</a><a href="#work-ds-process">Process</a><a href="#work-ds-decision">Key decision</a><a href="#work-ds-outcome">Outcome</a></nav>
+<section class="sec2" id="work-ds-problem"><h2 class="h2">Why MDPI needed one brand across eight initiatives</h2>
+<p>MDPI had operated for 25 years without a brand. Each of its eight initiatives had developed its own look. There were no shared UI components, no colour system, no typography hierarchy and no style guide. The brand felt fragmented across print, digital and dozens of publications.</p>
+<p>The raw material was a challenge too. MDPI’s main visual asset was scientific imagery, often at very low resolution and unusable at scale.</p>
+<div style="display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:18px"><div class="ph" style="height:260px"><img loading="lazy" decoding="async" src="assets/img/p051.webp" alt="Earlier MDPI marketing materials, each in its own visual style before the unified brand" style="height:100%;object-fit:cover;object-position:center"></div><div class="ph" style="height:260px"><img loading="lazy" decoding="async" src="assets/img/p052.webp" alt="New and previous MDPI and JAMS websites shown side by side" style="height:100%;object-fit:cover;object-position:center"></div></div></section>
+<section class="sec2" id="work-ds-role"><h2 class="h2">Brand identity and design system, from freelance to in-house</h2>
+<p>Joined in 2020 as a freelancer from my practice in Amsterdam, approached by MDPI’s senior leadership, and continued in-house from 2022. Started with the brand identity in print, then moved on to the design system for digital products.</p>
+<p>The core team was two people: me and a project sponsor from leadership. Worked closely with Graphic Design (print and video), Marketing, editorial designers, the project owners of each initiative and, later, a newly hired front-end team.</p></section>
+<section class="sec2" id="work-ds-process"><h2 class="h2">Design system process: from scientific imagery to Figma components</h2>
+<div class="steps"><div><b>Visual language</b><span>Experimented with low-resolution scientific images until a pattern emerged: rendered as halftone, they became a texture that works the same in print and on screen.</span></div><div><b>Testing</b><span>Ran a perception survey linked from the MDPI website, with 80+ responses, alongside logo abstraction studies, typography readability tests and accessibility testing.</span></div><div><b>Approval</b><span>Presented the findings to stakeholders across the company, including the founder. MDPI approved a consistent brand for the first time.</span></div><div><b>Building</b><span>Built the foundations in Figma first: typography, iconography, colour and grid. Layered halftone component sets on top, backed by design tokens, with master templates each initiative extends.</span></div><div><b>Rollout</b><span>MDPI Books, Scilit and JAMS adopted it first, in print and then digital. One regional team kept its own materials for six months; repeated conversations, not enforcement, brought them in within a year.</span></div></div>
+<div style="display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:18px"><div class="ph" style="height:240px"><img loading="lazy" decoding="async" src="assets/img/p053.webp" alt="Perception survey results and research boards from the MDPI brand study" style="height:100%;object-fit:cover;object-position:top"></div><div class="ph" style="height:240px"><img loading="lazy" decoding="async" src="assets/img/p054.webp" alt="Brand attribute cards: open, honest, accessible, modest, timeless and a design principle" style="height:100%;object-fit:cover;object-position:center"></div><div class="ph" style="height:240px"><img loading="lazy" decoding="async" src="assets/img/p055.webp" alt="Typography readability tests using invented words set in Suisse Int’l" style="height:100%;object-fit:cover;object-position:center"></div><div class="ph" style="height:240px"><img loading="lazy" decoding="async" src="assets/img/p056.webp" alt="Map of MDPI journals grouped by subject, used to structure the initiatives" style="height:100%;object-fit:cover;object-position:center"></div><div class="ph" style="grid-column:span 2;"><img loading="lazy" decoding="async" src="assets/img/p057.webp" alt="Design system foundations: Suisse Int’l typeface, colour palette and initiative icons"></div></div>
+<p class="cap">Survey, brand attributes, readability tests, subject map and foundations.</p>
+<p class="ann">Craft lives here: annotate why this typeface, these colours, this grid.</p></section>
+<section class="sec2" id="work-ds-decision"><h2 class="h2" style="font-size:26px;line-height:1.2">Key decision: turning low-resolution imagery <span style="color:var(--l3)">into the identity</span></h2>
+<p>MDPI’s main visual material was low-resolution scientific imagery, unusable at scale. Instead of working around it, the system uses it as the source of the identity. Rendered as halftone, MDPI’s own research became an abstract visual signature that works the same on a printed cover and in a web component.</p>
+<p>Because the identity comes from what MDPI publishes, it feels specific to the company. Every initiative can draw on the same material without diluting the brand. That consistency made one unified design system across all eight initiatives possible.</p>
+<div style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:10px;margin-top:18px"><div class="ph" style="height:180px"><img loading="lazy" decoding="async" src="assets/img/p058.webp" alt="Low-resolution scientific images in greyscale before the halftone treatment" style="height:100%;object-fit:cover;object-position:center"></div><div class="ph" style="height:180px"><img loading="lazy" decoding="async" src="assets/img/p059.webp" alt="Scientific imagery rendered as a halftone pattern for the MDPI visual language" style="height:100%;object-fit:cover;object-position:center"></div><div class="ph" style="height:180px"><img loading="lazy" decoding="async" src="assets/img/p060.webp" alt="Halftone patterns in colour, used across print and digital brand materials" style="height:100%;object-fit:cover;object-position:center"></div></div>
+<p class="cap">Raw image → halftone → colour.</p></section>
+<section class="sec2" id="work-ds-outcome"><h2 class="h2">Results: one design system for eight initiatives</h2>
+<div class="stats"><div><b>8</b><span>initiatives in 17 locations, each tied to one master template</span></div><div><b>50+</b><span>components; all legacy components replaced</span></div><div><b>Day one</b><span>new initiatives start on the system, not from scratch</span></div></div>
+<ul class="out"><li>Only each initiative’s own colour was kept from the old components.</li><li>Marketing and leadership described the brand as calmer and more structured. Teams gained a clearer sense of what they were building toward.</li></ul>
+<div style="margin-top:18px"><div class="ph" style=""><img loading="lazy" decoding="async" src="assets/img/p061.webp" alt="Four journal page headers built from one master template with different imagery"></div></div></section>
+<div class="sec" id="work-ds-cta"><div class="g"><div></div><div><p class="h2" style="font-size:24px">Building a design system across teams? <span style="color:var(--l3)">Get in touch.</span></p><div style="display:flex;gap:8px;flex-wrap:wrap;margin-top:12px"><a class="pill solid" href="#home-about">Get in touch</a><a class="pill" href="#home-about">Download CV ↓</a></div></div></div></div>
 
-  <section class="sec">
-    <div class="sec-head g"><div class="l"><p class="label">Graphic roots</p></div><div class="r"><h2>UI &amp; Visual Work</h2></div></div>
-    <div class="vis">
-      <figure>
-        <div class="ph"><img src="assets/img/sh.webp" width="752" height="659" loading="lazy" decoding="async" alt="Shanghai Biennale catalogue in green and magenta"></div>
-        <h3><span class="num">4</span>Shanghai Biennale 2018</h3>
-        <p>Visual identity and catalogue for the 12th Shanghai Biennale at Power Station of Art. Freelance with thonik, Amsterdam.</p>
-        <span class="yr">Art Direction · Identity · Book Design</span>
-      </figure>
-      <figure>
-        <div class="ph"><img src="assets/img/lm.webp" width="1400" height="535" loading="lazy" decoding="async" alt="Four riso-printed posters for Living Matters" style="object-position:30% 50%"></div>
-        <h3><span class="num">5</span>Living Matters</h3>
-        <p>Poster series with Berlin artist Eva Keller. Riso-printed on thin paper so text and imagery bleed through front to back.</p>
-        <span class="yr">Typography · Editorial · Print · 2020–2021</span>
-      </figure>
-      <figure>
-        <div class="ph"><img src="assets/img/mama.webp" width="756" height="1076" loading="lazy" decoding="async" alt="MAMA documentary poster with layered title typography"></div>
-        <h3><span class="num">6</span>MAMA Documentary</h3>
-        <p>Title design and poster for Marieke de Bra’s film. The typography moves between control and vulnerability, like she does.</p>
-        <span class="yr">Film Titles · Poster · Motion · 2022</span>
-      </figure>
-    </div>
-  </section>
+<a class="next" href="#work-books"><span class="eb">Next product project</span><span class="h1">MDPI Books →</span></a>
+</main>
+<footer class="ft"><span>© 2026 Gaby Luong · Product Designer · Basel</span><span><a href="mailto:info@gabyluong.com">E-mail</a><a href="https://www.linkedin.com/in/gaby-luong-458124151" target="_blank" rel="noopener">LinkedIn ↗</a><a data-cv href="#">CV ↓</a></span></footer>
+</div><div class="where">Case study · Summary first</div></section><section class="page" id="work-books"><div class="site">
+<header class="hc"><nav><a href="#home" class="">All</a><a href="#product" class="on">Product</a><a href="#visual" class="">Visual</a><a href="#home-about" class="">About</a></nav></header>
+<main><a class="back" href="#product">← Product</a>
+<div style="margin-top:14px"><h1 class="h1">MDPI Books: publishing platform redesign</h1><p class="eb" style="margin-top:6px">Product Designer · 2023–2024 · 14 months to launch</p></div>
+<p class="lead">A publishing platform redesign for MDPI Books, the open access book platform of a scientific publishing house. The redesign made books easier to find and easier to publish. Within six months of launch, traffic tripled and landing-page drop-off fell from 83% to 22%. Books moved from MDPI’s 4th to its 2nd revenue-generating product.</p>
+<p class="eb" style="margin-top:10px">A UX case study by Gaby Luong, Product Designer in Basel. <a href="#home" style="text-decoration:underline">More work on gabyluong.ch</a></p>
+<div class="tldr" id="work-books-summary"><div><b>Problem</b>No design role, a buggy Book Builder and readers who could not find books.</div><div><b>My role</b>Product Designer, end to end, with product management at the start.</div><div><b>What I did</b>Interviews, workshop, wireframes, prototype and weekly work with front-end.</div><div><b>Result</b>3× traffic, landing-page drop-off 83% → 22%, 4th → 2nd revenue product.</div></div><div style="margin-top:24px"><div class="ph" style=""><img loading="lazy" decoding="async" src="assets/img/p062.webp" alt="Three mobile screens of the redesigned MDPI Books publishing platform showing book pages"></div></div>
 
-  <section class="sec about g" id="about">
-    <div class="l"><p class="label">About</p></div>
-    <div class="r">
-      <p>I’m a designer born and raised in Basel. I craft elegant, functional systems that turn complexity into experiences people can trust and use.</p>
-      <p>When I’m not designing, I’m probably on a hike, training BJJ, enjoying good food or tracking down good architecture and museums somewhere.</p>
-    </div>
-  </section>
+<p class="ann">Summary first: a recruiter who reads only this box has the whole story.</p>
+<nav class="chapnav"><a href="#work-books-summary">Summary</a><a href="#work-books-problem">Problem</a><a href="#work-books-role">My role</a><a href="#work-books-process">Process</a><a href="#work-books-decision">Key decision</a><a href="#work-books-outcome">Outcome</a></nav>
 
-  <section class="sec g" id="contact">
-    <div class="l"><p class="label">Contact</p></div>
-    <div class="r" style="display:flex;flex-direction:column;gap:1.5rem">
-      <h2 style="font-size:var(--s-xl)">If this resonates with you, reach out for a project, a coffee, or a game of chess.</h2>
-      <div class="contact">
-        <span class="val">gabyluong@hotmail.com</span>
-        <a href="https://www.linkedin.com/in/gaby-luong-458124151" target="_blank" rel="noopener">LinkedIn ↗</a>
-      </div>
-    </div>
-  </section>
-  </main>
-<footer class="wrap"><span>© 2026 Gaby Luong</span><span>UX &amp; Product Designer · Basel, Switzerland</span></footer>
-<script src="assets/main.js" defer></script>
-</body>
-</html>
+<section class="sec2" id="work-books-problem">
+<h2 class="h2">Why readers could not find books on MDPI Books</h2>
+<p>The Books team had no dedicated design or UX role. The team took on the redesign alongside daily work and expected a visual refresh. The Book Builder, the flow authors use to compile books, was full of bugs and had no tracking. Avoidable support requests took time away from building.</p>
+<p>User interviews showed the problem went deeper than visuals:</p>
+<div class="stats" style="margin-top:14px"><div><b>7 of 7</b><span>couldn’t find the books they needed</span></div><div><b>5 of 7</b><span>didn’t know what resources existed</span></div><div><b>4 of 7</b><span>had no time to browse</span></div></div>
+<p class="eb" style="margin-top:14px">Baseline: 83% landing-page drop-off · 60.51% site-wide bounce rate · 0.87% conversion rate · 3.38 minutes on site</p>
+<div style="margin-top:18px"><div class="ph" style=""><img loading="lazy" decoding="async" src="assets/img/p063.webp" alt="New MDPI Books homepage beside the previous version of the site"></div></div>
+</section>
+
+<section class="sec2" id="work-books-role">
+<h2 class="h2">Product design and product management, end to end</h2>
+<p>Product Designer on the project from first research to launch: UX research, the component library, prototyping, stakeholder management and handoff to development.</p>
+<p>With no fixed deadline and little spare capacity on the team, I also took on product management at the start: setting the scope, running alignment and keeping the work moving. The wireframe stage had no front-end developers. Two joined for the prototype stage, hired for this redesign.</p>
+</section>
+
+<section class="sec2" id="work-books-process">
+<h2 class="h2">UX research process for MDPI Books</h2>
+<div class="steps">
+<div><b>Research</b><span>Collected the team’s assumptions, then ran 7 moderated interviews with academics and researchers to test them.</span></div>
+<div><b>Alignment</b><span>The findings gave the team one hypothesis: a more visual, better-structured site helps readers find books. A cross-country stakeholder workshop confirmed it.</span></div>
+<div><b>Wireframes to prototype</b><span>Restructured the information architecture, designed discovery pages around what users could not find, rebuilt the Book Builder flow and simplified payment. Tested the high-fidelity prototype with colleagues outside the project, as the budget did not allow a second external round.</span></div>
+<div><b>Building together</b><span>Moved my desk to the front-end team, followed their builds in weekly streams and ran weekly sessions so design and code stayed aligned. Set up the tracking the Book Builder had been missing.</span></div>
+<div><b>Launch</b><span>Launched with SEO support from Marketing.</span></div>
+</div>
+<div style="display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:18px"><div class="ph" style="grid-column:span 2;"><img loading="lazy" decoding="async" src="assets/img/p064.webp" alt="Book Builder workflow diagram showing how authors compile a book from a special issue"></div><div class="ph" style="height:260px"><img loading="lazy" decoding="async" src="assets/img/p065.webp" alt="New interface components: search field, purchase buttons, subject icons and newsletter sign-up" style="height:100%;object-fit:cover;object-position:top"></div><div class="ph" style="height:260px"><img loading="lazy" decoding="async" src="assets/img/p066.webp" alt="Previous interface components: separate search forms, shopping cart fields and a subscription box" style="height:100%;object-fit:cover;object-position:top"></div></div>
+<div style="display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:10px"><div class="ph" style="height:240px"><img loading="lazy" decoding="async" src="assets/img/p067.webp" alt="Site map of the new MDPI Books information architecture with its main sections" style="height:100%;object-fit:cover;object-position:center"></div><div class="ph" style="height:240px"><img loading="lazy" decoding="async" src="assets/img/p068.webp" alt="Hand-drawn wireframe sketch of the MDPI Books landing page with reprints and monographs" style="height:100%;object-fit:cover;object-position:top"></div></div><p class="cap">Book Builder workflow, new and old components, site map and first sketch.</p><p class="ann">Craft lives here: new vs old components, with a short note on why each changed.</p>
+</section>
+
+<section class="sec2" id="work-books-decision">
+<h2 class="h2" style="font-size:26px;line-height:1.2">Key decision: from visual refresh <span style="color:var(--l3)">to strategic redesign</span></h2>
+<p>The team asked for a new look. The interviews showed three deeper problems: books were hard to find, people did not know what existed, and the publishing flow did not work. A visual refresh would have made these problems look better without solving them.</p>
+<p>The research reframed the work as a publishing platform redesign around structure and flows: how readers find books, and how authors get through the Book Builder. Because the new direction came from the team’s own assumptions, tested with real users, the team supported it. That shared direction carried the project through 14 months to launch.</p>
+</section>
+
+<section class="sec2" id="work-books-outcome">
+<h2 class="h2">Results after launch: traffic, drop-off and revenue</h2>
+<div class="stats"><div><b>3×</b><span>traffic within 6 months of launch</span></div><div><b>83% → 22%</b><span>landing-page drop-off</span></div><div><b>4th → 2nd</b><span>revenue-generating product at MDPI</span></div></div>
+<ul class="out"><li>Fewer email complaints reached the Books team after the relaunch.</li><li>Tracking now sits behind the Book Builder, so the team can measure what it could not before.</li></ul>
+<div style="display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:18px"><div class="ph" style="height:230px"><img loading="lazy" decoding="async" src="assets/img/p069.webp" alt="Final MDPI Books homepage layout on desktop and mobile, shown on the layout grid" style="height:100%;object-fit:cover;object-position:top"></div><div class="ph" style="height:230px"><img loading="lazy" decoding="async" src="assets/img/p070.webp" alt="Reprints overview and filtered list pages on desktop and mobile" style="height:100%;object-fit:cover;object-position:top"></div><div class="ph" style="height:230px"><img loading="lazy" decoding="async" src="assets/img/p071.webp" alt="Open access books overview, filtered results and share dialogue on desktop and mobile" style="height:100%;object-fit:cover;object-position:top"></div><div class="ph" style="height:230px"><img loading="lazy" decoding="async" src="assets/img/p072.webp" alt="Book series and reprint set pages on desktop and mobile" style="height:100%;object-fit:cover;object-position:top"></div></div><p class="cap">Final layouts on a 12-column grid: homepage, reprints, open access books and series.</p>
+</section>
+
+<div class="sec" id="work-books-cta"><div class="g"><div></div><div><p class="h2" style="font-size:24px">Working on a complex platform? <span style="color:var(--l3)">Get in touch.</span></p><div style="display:flex;gap:8px;flex-wrap:wrap;margin-top:12px"><a class="pill solid" href="#home-about">Get in touch</a><a class="pill" href="#home-about">Download CV ↓</a></div></div></div></div>
+
+
+<a class="next" href="#work-hub"><span class="eb">Next product project</span><span class="h1">MDPI User Hub →</span></a>
+</main>
+<footer class="ft"><span>© 2026 Gaby Luong · Product Designer · Basel</span><span><a href="mailto:info@gabyluong.com">E-mail</a><a href="https://www.linkedin.com/in/gaby-luong-458124151" target="_blank" rel="noopener">LinkedIn ↗</a><a data-cv href="#">CV ↓</a></span></footer>
+</div><div class="where">Case study · Summary first</div></section><section class="page" id="work-hub"><div class="site">
+<header class="hc"><nav><a href="#home" class="">All</a><a href="#product" class="on">Product</a><a href="#visual" class="">Visual</a><a href="#home-about" class="">About</a></nav></header>
+<main><a class="back" href="#product">← Product</a>
+<div style="margin-top:14px"><h1 class="h1">MDPI User Hub: UX research case study</h1><p class="eb" style="margin-top:6px">Lead UX Research · 2025 · 4 months</p></div>
+<p class="lead">A UX research case study for MDPI’s User Hub, a planned dashboard for all user accounts. Satisfaction scores looked healthy, yet usage data showed people leaving right after they logged in. The research explained the gap and turned it into a design direction for the dashboard.</p>
+<p class="eb" style="margin-top:10px">By Gaby Luong, Product Designer in Basel. <a href="#home" style="text-decoration:underline">More work on gabyluong.ch</a></p>
+<div class="tldr" id="work-hub-summary"><div><b>Problem</b>An NPS around 50, yet 1 in 4 visits ended right after login.</div><div><b>My role</b>Lead UX Research, with a Product Owner and a developer.</div><div><b>What I did</b>Metrics → customer journey → 7 interviews → matrix → wireframes.</div><div><b>Result</b>6 validated patterns and a direction the next phase builds on.</div></div><div style="margin-top:24px"><div class="ph" style="height:420px"><img loading="lazy" decoding="async" src="assets/img/p073.webp" alt="Low-fidelity wireframe of the User Hub dashboard with submission overview and activity" style="height:100%;object-fit:cover;object-position:top"></div></div>
+<p class="ann">Summary first: a recruiter who reads only this box has the whole story.</p>
+<nav class="chapnav"><a href="#work-hub-summary">Summary</a><a href="#work-hub-problem">Problem</a><a href="#work-hub-role">My role</a><a href="#work-hub-process">Process</a><a href="#work-hub-decision">Key decision</a><a href="#work-hub-outcome">Outcome</a></nav>
+<section class="sec2" id="work-hub-problem"><h2 class="h2">Why users left MDPI’s submission system after login</h2>
+<p>MDPI wanted to unify user accounts in one dashboard. The work started with Susy, the submission system that generates the most revenue and where every user has an account.</p>
+<p>Satisfaction looked reassuring: Marketing’s 2024 author survey, with around 37,000 responses, showed an NPS of about 50, and 95% rated their experience good or excellent. Usage data from the second half of 2024 told a different story:</p>
+<div class="stats"><div><b>1 in 4</b><span>visits ended at the second page, right after login</span></div><div><b>1 in 5</b><span>visits to the submission flow ended in a submission in the same session</span></div><div><b>Over half</b><span>of those who started left at the first submission step</span></div></div>
+<p>No one owned the full picture across Editorial, Support and Product, so no one could explain the gap.</p>
+<div style="margin-top:18px"><div class="ph" style=""><img loading="lazy" decoding="async" src="assets/img/p074.webp" alt="Bar chart: share of visits still in the submission flow at each step"></div></div></section>
+<section class="sec2" id="work-hub-role"><h2 class="h2">Lead UX researcher, with a Product Owner and a developer</h2>
+<p>Ran the research from the first questions to the first wireframes, together with the Product Owner and a developer. The Product Owner helped recruit participants.</p>
+<p>The Editorial and Support teams, who work in Susy daily and handle users’ questions and complaints, contributed their knowledge as input.</p></section>
+<section class="sec2" id="work-hub-process"><h2 class="h2">UX research process: customer journey, user interviews and synthesis</h2>
+<div class="steps"><div><b>Questions</b><span>Defined what we needed to know: who the users are, what they try to do, what brings them to Susy, and whether they use their account beyond one submission.</span></div><div><b>Customer journey</b><span>Combined metrics, survey data and team insights into a journey map with two personas. The early-career persona came from internal insights.</span></div><div><b>Interviews</b><span>Refined the questions in three rounds with colleagues in Basel, then ran 7 moderated interviews with authors, reviewers, guest editors and editors.</span></div><div><b>Synthesis</b><span>Clustered findings on an affinity map with 200+ notes and ranked pain points in a matrix. Top two, each raised by 4 of 7: changing an email address, and logging in from a journal page.</span></div><div><b>Wireframes</b><span>Turned the findings into low-fidelity wireframes and reviewed them with stakeholders.</span></div></div>
+<p style="margin-top:22px"><b style="font-weight:500">Six patterns emerged:</b></p>
+<ul class="out"><li>Users are goal-driven and want to submit in 30–60 minutes.</li><li>Mixed terms and a dated look cause disorientation.</li><li>Repetitive manual fields reduce satisfaction.</li><li>Login and navigation friction hurts first impressions.</li><li>Users want one role-aware dashboard.</li><li>Optional features like cover letters are mostly ignored.</li></ul>
+<div style="display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:18px"><div class="ph" style="grid-column:span 2;height:420px"><img loading="lazy" decoding="async" src="assets/img/p075.webp" alt="Customer journey map for Susy with two personas, touchpoints and emotion curve" style="height:100%;object-fit:cover;object-position:top"></div><div class="ph" style="height:300px"><img loading="lazy" decoding="async" src="assets/img/p076.webp" alt="Affinity map with over 200 sticky notes from the user interview analysis" style="height:100%;object-fit:cover;object-position:center"></div><div class="ph" style="height:300px"><img loading="lazy" decoding="async" src="assets/img/p077.webp" alt="Pain point matrix ranking issues by how many of seven participants raised them" style="height:100%;object-fit:cover;object-position:top"></div></div>
+<p class="cap">Customer journey, affinity map and pain point matrix (participant names removed).</p></section>
+<section class="sec2" id="work-hub-decision"><h2 class="h2" style="font-size:26px;line-height:1.2">Key decision: start with one product <span style="color:var(--l3)">and one dashboard</span></h2>
+<p>Unifying accounts across every MDPI product at once would have been a large change that was hard to approve. Instead, the work started with Susy, the product with the most revenue and the one every user has an account for. We proposed a single dashboard as the first step, without major changes to the submission system itself.</p>
+<p>A dashboard was concrete and low-risk, which made it easy for stakeholders to say yes. That support opened the door to look deeper: into the metrics, the NPS and, through the customer journey, the evidence for why users left.</p></section>
+<section class="sec2" id="work-hub-outcome"><h2 class="h2">Results: six validated patterns and a dashboard direction</h2>
+<div class="stats"><div><b>7</b><span>moderated interviews across four user roles</span></div><div><b>6</b><span>validated behaviour patterns</span></div><div><b>4</b><span>wireframed areas, each tied to a finding</span></div></div>
+<p>The UX research reframed User Hub from a UI refresh into an evidence-based redesign. For the first time, MDPI could explain why satisfaction scores and usage data disagreed: the survey measured the overall publishing experience, while the interviews showed where users lost their way in the platform.</p>
+<p>The wireframes cover a dashboard with submissions and activity, a simpler profile, self-service support and personalised newsletter interests. My part ended after the research and first wireframes, when I left MDPI. The next phase builds on this direction.</p>
+<div style="display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:18px"><div class="ph" style="height:260px"><img loading="lazy" decoding="async" src="assets/img/p073.webp" alt="User Hub dashboard wireframe with submissions, activity history and profile summary" style="height:100%;object-fit:cover;object-position:top"></div><div class="ph" style="height:260px"><img loading="lazy" decoding="async" src="assets/img/p078.webp" alt="Low-fidelity wireframe of the User Hub profile and account section" style="height:100%;object-fit:cover;object-position:top"></div><div class="ph" style="height:260px"><img loading="lazy" decoding="async" src="assets/img/p079.webp" alt="Low-fidelity wireframe of the self-service support area with tickets and FAQ" style="height:100%;object-fit:cover;object-position:top"></div><div class="ph" style="height:260px"><img loading="lazy" decoding="async" src="assets/img/p080.webp" alt="Low-fidelity wireframe of personalised newsletter interests and recommended publications" style="height:100%;object-fit:cover;object-position:top"></div></div></section>
+<div class="sec" id="work-hub-cta"><div class="g"><div></div><div><p class="h2" style="font-size:24px">Need research that turns data into direction? <span style="color:var(--l3)">Get in touch.</span></p><div style="display:flex;gap:8px;flex-wrap:wrap;margin-top:12px"><a class="pill solid" href="#home-about">Get in touch</a><a class="pill" href="#home-about">Download CV ↓</a></div></div></div></div>
+
+<a class="next" href="#work-bern"><span class="eb">Next product project</span><span class="h1">Altstadt Bern →</span></a>
+</main>
+<footer class="ft"><span>© 2026 Gaby Luong · Product Designer · Basel</span><span><a href="mailto:info@gabyluong.com">E-mail</a><a href="https://www.linkedin.com/in/gaby-luong-458124151" target="_blank" rel="noopener">LinkedIn ↗</a><a data-cv href="#">CV ↓</a></span></footer>
+</div><div class="where">Case study · Summary first</div></section><section class="page" id="work-bern"><div class="site">
+<header class="hc"></header>
+<main><a class="back" href="#product">← Product</a>
+<div style="margin-top:14px"><h1 class="h1">Altstadt Bern: UX research beyond the screen</h1><p class="eb" style="margin-top:6px">UX Researcher · 2025 · CAS Usability &amp; User Experience, FHNW</p></div>
+<p class="lead">A UX research case study on the lower Old Town of Bern, a UNESCO World Heritage site that many people pass through without stopping. Instead of a classic urban study, the team talked to the people who use the space: visitors, residents and shop owners. The offering is there, but hard to see.</p>
+<p class="eb" style="margin-top:10px">By Gaby Luong, Product Designer in Basel. <a href="#home" style="text-decoration:underline">More work on gabyluong.ch</a></p>
+<div class="tldr" id="work-bern-summary"><div><b>Problem</b>Small shops in the lower Old Town face few visitors and rising vacancies.</div><div><b>My role</b>UX Researcher in a team of three; ran the second interview round.</div><div><b>What I did</b>Observation, 15 street interviews, in-depth interviews, customer journey.</div><div><b>Result</b>Three priority actions and a phased plan for the local association.</div></div><div style="margin-top:24px"><div class="ph"><img loading="lazy" decoding="async" src="assets/img/p010.webp" alt="Map of the lower Old Town of Bern with numbered research findings per lane"></div></div>
+
+<nav class="chapnav"><a href="#work-bern-summary">Summary</a><a href="#work-bern-problem">Problem</a><a href="#work-bern-role">My role</a><a href="#work-bern-process">Process</a><a href="#work-bern-decision">Key decision</a><a href="#work-bern-outcome">Outcome</a></nav>
+<section class="sec2" id="work-bern-problem"><h2 class="h2">Why the lower Old Town of Bern attracts fewer visitors</h2>
+<p>The lower Old Town is home to small, independent shops, studios, galleries and craft businesses. Tourists pass through, but few stop. Shop turnover and empty retail space had grown in recent months.</p>
+<p>The question: which simple measures could make the area more attractive, while respecting the people who live there?</p>
+<div style="margin-top:18px"><div class="ph"><img loading="lazy" decoding="async" src="assets/img/p081.webp" alt="Map of the lanes studied: Postgasse, Gerechtigkeitsgasse, Junkerngasse, Nydegg and Matte"></div></div></section>
+<section class="sec2" id="work-bern-role"><h2 class="h2">UX research in a team of three</h2>
+<p>A case study for the CAS in Usability and User Experience at FHNW, in a team of three with a supervising lecturer. Working mostly in digital design, I wanted to understand human behaviour beyond screens.</p>
+<p>My part was the second round of street interviews. It validated the findings from the first round and followed up on the open questions it had raised.</p></section>
+<section class="sec2" id="work-bern-process"><h2 class="h2">UX research process: observation, street interviews and a customer journey</h2>
+<div class="steps"><div><b>Questions</b><span>Narrowed the core question to: which measures can make the lower Old Town more attractive? Two hypotheses followed: experience-based wayfinding and regular events.</span></div><div><b>User groups</b><span>Mapped all user groups, then focused on visitors and businesses, with residents alongside.</span></div><div><b>Observation</b><span>Observed places and people in two periods, February to March and May to July 2025, to see the area across seasons.</span></div><div><b>Street interviews</b><span>Ran guerrilla interviews in two rounds: 6 open conversations first, then 9 with a structured question grid, on the same weekday and time.</span></div><div><b>In-depth interviews</b><span>Talked with the president of the local association and two shop owners.</span></div><div><b>Customer journey</b><span>Mapped touchpoints and pain points per user group, then prioritised measures by dot voting.</span></div></div>
+<p style="margin-top:22px"><b style="font-weight:500">What the research showed:</b></p>
+<ul class="out"><li>Visitors like the small shops and personal advice, but find closed shops and unclear opening hours.</li><li>People walk through the lanes but rarely stop. A shop that already looks busy draws people in.</li><li>Shop owners lack foot traffic and visibility, and mostly work alone rather than together.</li><li>Residents want calm, neighbourhood life and less car traffic.</li></ul>
+<p class="quote" style="margin-top:18px">“I’ve lived here my whole life, and I still don’t understand why no one comes to Postgasse.” <span style="color:var(--mute)">Resident, street interview</span></p>
+<div style="display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:18px"><div class="ph" style="height:300px"><img loading="lazy" decoding="async" src="assets/img/p082.webp" alt="Pink door of the Berner Puppentheater in an arcade" style="height:100%;width:100%;object-fit:cover;object-position:center"></div><div class="ph" style="height:300px"><img loading="lazy" decoding="async" src="assets/img/p083.webp" alt="Restaurant terrace under a sail in the lower Old Town" style="height:100%;width:100%;object-fit:cover;object-position:center"></div></div>
+<div style="margin-top:10px"><div class="ph"><img loading="lazy" decoding="async" src="assets/img/p084.webp" alt="Customer journey map with touchpoints and pain points per user group"></div></div></section>
+<section class="sec2" id="work-bern-decision"><h2 class="h2">Key decision: listening to people <span style="color:var(--l3)">before planning from the map</span></h2>
+<p>Urban planning usually starts with plans, standards and building measures. This study started by listening. Talking to visitors, residents and shop owners surfaced details a spatial analysis would likely miss: unclear opening hours, the rhythm of events and the need to be seen together.</p>
+<p>The first six interviews already showed the main barriers. The second round confirmed them.</p></section>
+<section class="sec2" id="work-bern-outcome"><h2 class="h2">Results: three priorities for the lower Old Town</h2>
+<div class="stats"><div><b>3</b><span>priority actions agreed by the team</span></div><div><b>15</b><span>street interviews in two rounds</span></div><div><b>2</b><span>hypotheses supported by the interviews</span></div></div>
+<ul class="out"><li>A fixed calendar of regular events, such as every first and third Saturday.</li><li>A shared digital presence with an interactive map of shops, opening hours and events.</li><li>A pop-up system that opens empty shops for temporary use.</li></ul>
+<p>The plan starts with a test phase together with the local association in 2026–2027, followed by shared branding and digital tools. The study could not test the measures: in a city, prototypes need time, permits and many people. With more time, the next step would be a digital prototype of the event calendar and map.</p>
+<div style="margin-top:18px"><div class="ph"><img loading="lazy" decoding="async" src="assets/img/p085.webp" alt="Research board with hypotheses, map, photos and prioritised measures"></div></div></section>
+<div class="sec"><div class="g"><div></div><div><p class="h2">Researching how people use a space or service? <span style="color:var(--l3)">Get in touch.</span></p><div class="links"><a class="pill solid" href="#home-about">Get in touch</a><a class="pill" data-cv href="#">Download CV ↓</a></div></div></div></div>
+<a class="next" href="#work-ds"><span class="eb">Next product project</span><span class="h1">Unified design system for MDPI →</span></a>
+</main>
+<footer class="ft"><span>© 2026 Gaby Luong · Product Designer · Basel</span><span><a href="mailto:info@gabyluong.com">E-mail</a><a href="https://www.linkedin.com/in/gaby-luong-458124151" target="_blank" rel="noopener">LinkedIn ↗</a><a data-cv href="#">CV ↓</a></span></footer>
+</div><div class="where">Case study · Summary first</div></section><section class="page" id="visual-shanghai"><div class="site">
+<header class="hc"></header>
+<main><a class="back" href="#visual">← Visual</a>
+<div style="margin-top:14px"><h1 class="h1">Shanghai Biennale 2018: identity and catalogue</h1><p class="eb" style="margin-top:6px">Art Director &amp; Graphic Designer (freelance, with thonik) · 2018 · Identity, Catalogue, Logo</p></div>
+<p class="lead">Exhibition identity and catalogue design for the 12th Shanghai Biennale at Power Station of Art. I worked on it as a freelancer with thonik in Amsterdam, including a trip to Shanghai to align with the local team and the exhibiting artists. The logo is built from the biennale’s own typeface: a double-crossing mark set against two circles, exploring the tension between human-driven and computational design. The identity carried through the catalogue, street banners and the museum building.</p>
+<p class="eb" style="margin-top:10px">By Gaby Luong, Product Designer in Basel. <a href="#home" style="text-decoration:underline">More work on gabyluong.ch</a></p>
+<div style="margin-top:24px"><div class="gr" style="padding:0"><figure style="flex:1.421 1 0"><img loading="lazy" decoding="async" src="assets/img/p002.webp" alt="Biennale identity on large banners at the entrance of Power Station of Art"></figure></div><div class="gr" style="padding:0 8%"><figure style="flex:1.148 1 0"><img loading="lazy" decoding="async" src="assets/img/p011.webp" alt="Shanghai Biennale 2018 catalogue cover in green with magenta lettering"></figure><figure style="flex:0.624 1 0"><img loading="lazy" decoding="async" src="assets/img/p012.webp" alt="Green Shanghai Biennale street banner on a lamppost"></figure></div><div class="gr" style="padding:0 0 0 12%"><figure style="flex:1.618 1 0"><img loading="lazy" decoding="async" src="assets/img/p013.webp" alt="Catalogue spread with artwork photography"></figure><figure style="flex:1.618 1 0"><img loading="lazy" decoding="async" src="assets/img/p014.webp" alt="Catalogue spread with archive images and typeset texts"></figure></div></div>
+<p class="ann">Same structure as the product case studies: left-aligned title, one text block, uncropped images, max 3 per row.</p>
+<a class="next" href="#visual-living"><span class="eb">Next visual project</span><span class="h1">Living Matters →</span></a></main>
+<footer class="ft"><span>© 2026 Gaby Luong · Product Designer · Basel</span><span><a href="mailto:info@gabyluong.com">E-mail</a><a href="https://www.linkedin.com/in/gaby-luong-458124151" target="_blank" rel="noopener">LinkedIn ↗</a><a data-cv href="#">CV ↓</a></span></footer>
+</div><div class="where">Visual project page</div></section><section class="page" id="visual-living"><div class="site">
+<header class="hc"></header>
+<main><a class="back" href="#visual">← Visual</a>
+<div style="margin-top:14px"><h1 class="h1">Living Matters: risograph poster series</h1><p class="eb" style="margin-top:6px">Graphic Designer · 2020–2021 · Typography, Editorial, Print production</p></div>
+<p class="lead">A risograph poster series for Berlin artist Eva Keller and her scientific, exploratory performance work. Her research imagery became one typographic system across four posters: Medium, Material, Apparatus and Experiments. Printed in Amsterdam on thin paper, so text and imagery bleed through from front to back.</p>
+<p class="eb" style="margin-top:10px">By Gaby Luong, Product Designer in Basel. <a href="#home" style="text-decoration:underline">More work on gabyluong.ch</a></p>
+<div style="margin-top:24px"><div class="gr" style="padding:0"><figure style="flex:2.440 1 0"><img loading="lazy" decoding="async" src="assets/img/p086.webp" alt="Four Living Matters risograph posters on stands"></figure></div><div class="gr" style="padding:0"><figure style="flex:0.943 1 0"><img loading="lazy" decoding="async" src="assets/img/p087.webp" alt="Two Living Matters posters with dense typography and red accents"></figure><figure style="flex:0.933 1 0"><img loading="lazy" decoding="async" src="assets/img/p088.webp" alt="Thin risograph paper with text showing through"></figure><figure style="flex:1.391 1 0"><img loading="lazy" decoding="async" src="assets/img/p089.webp" alt="Poster with dark scientific imagery beside fine typeset text"></figure></div><div class="gr" style="padding:0 0 0 12%"><figure style="flex:1.500 1 0"><img loading="lazy" decoding="async" src="assets/img/p090.webp" alt="Living Matters posters packed in clear sleeves"></figure></div></div>
+<p class="ann">Same structure as the product case studies: left-aligned title, one text block, uncropped images, max 3 per row.</p>
+<a class="next" href="#visual-mama"><span class="eb">Next visual project</span><span class="h1">MAMA →</span></a></main>
+<footer class="ft"><span>© 2026 Gaby Luong · Product Designer · Basel</span><span><a href="mailto:info@gabyluong.com">E-mail</a><a href="https://www.linkedin.com/in/gaby-luong-458124151" target="_blank" rel="noopener">LinkedIn ↗</a><a data-cv href="#">CV ↓</a></span></footer>
+</div><div class="where">Visual project page</div></section><section class="page" id="visual-mama"><div class="site">
+<header class="hc"></header>
+<main><a class="back" href="#visual">← Visual</a>
+<div style="margin-top:14px"><h1 class="h1">MAMA: film title design and poster</h1><p class="eb" style="margin-top:6px">Art Director · 2022 · Film titles, Poster, Motion</p></div>
+<p class="lead">Film title design and poster for MAMA, a documentary by Marieke de Bra. The film follows her path through abandonment anxiety, months of pole dance competition training and therapy with her own mother. The letters move the way she does: overlapping, shifting, then holding still, caught between control and vulnerability. The opening was shown at the Eye Museum in Amsterdam.</p>
+<p class="eb" style="margin-top:10px">By Gaby Luong, Product Designer in Basel. <a href="#home" style="text-decoration:underline">More work on gabyluong.ch</a></p>
+<div style="margin-top:24px" class="vhero"><video data-mama autoplay muted loop playsinline aria-label="MAMA film title animation"></video></div><div style="margin-top:24px"><div class="gr" style="padding:0"><figure style="flex:0.701 1 0"><img loading="lazy" decoding="async" src="assets/img/p091.webp" alt="MAMA documentary poster with layered title typography in yellow and pink"></figure><figure style="flex:1.133 1 0"><img loading="lazy" decoding="async" src="assets/img/p092.webp" alt="Opening credits of MAMA projected during a screening"></figure></div></div>
+<p class="ann">Same structure as the product case studies: left-aligned title, one text block, uncropped images, max 3 per row.</p>
+<a class="next" href="#visual-shanghai"><span class="eb">Next visual project</span><span class="h1">Shanghai Biennale →</span></a></main>
+<footer class="ft"><span>© 2026 Gaby Luong · Product Designer · Basel</span><span><a href="mailto:info@gabyluong.com">E-mail</a><a href="https://www.linkedin.com/in/gaby-luong-458124151" target="_blank" rel="noopener">LinkedIn ↗</a><a data-cv href="#">CV ↓</a></span></footer>
+</div><div class="where">Visual project page</div></section></main><script>
+(function(){
+var VIDEO="assets/media/mama.mp4",WEBM="assets/media/mama.webm",CV="assets/cv-gaby-luong.pdf";
+document.querySelectorAll('video[data-mama]').forEach(function(v){var a=document.createElement("source");a.src=WEBM;a.type="video/webm";var b=document.createElement("source");b.src=VIDEO;b.type="video/mp4";v.appendChild(a);v.appendChild(b);v.load();var pr=v.play();if(pr)pr.catch(function(){});});
+document.querySelectorAll('a[data-cv]').forEach(function(a){a.href=CV;a.setAttribute('download','CV_Gaby_Luong.pdf');});
+var R=document.documentElement,T=document.getElementById("tgl");function setT(d){R.setAttribute("data-theme",d?"dark":"light");T.setAttribute("aria-pressed",d);T.querySelector("span").textContent=d?"Light":"Dark";try{localStorage.setItem("gl-theme",d?"dark":"light")}catch(e){}}try{setT(localStorage.getItem("gl-theme")==="dark")}catch(e){setT(false)}T.onclick=function(){setT(R.getAttribute("data-theme")!=="dark")};
+var nav=document.getElementById('gnav'),last=window.scrollY;
+window.addEventListener('scroll',function(){var y=window.scrollY;if(y>last&&y>80)nav.classList.add('hide');else nav.classList.remove('hide');last=y;},{passive:true});
+function active(){var h=location.hash||'#home',pages=document.querySelectorAll('section.page'),cur='home';
+ pages.forEach(function(p){if(getComputedStyle(p).display!=='none')cur=p.id;});
+ var k=h==='#home-about'?'about':(cur.indexOf('work')===0||cur==='product')?'product':(cur.indexOf('visual')===0)?'visual':'home';
+ nav.querySelectorAll('nav a').forEach(function(a){a.classList.toggle('on',a.dataset.k===k);});
+ nav.classList.remove('hide');}
+window.addEventListener('hashchange',active);active();
+document.querySelectorAll('.flip').forEach(function(b){b.addEventListener('click',function(){var on=b.classList.toggle('on');b.setAttribute('aria-pressed',on);});});
+document.querySelectorAll('.ss').forEach(function(s){var t=s.querySelector('.tr'),n=s.querySelectorAll('.sl').length,c=s.querySelector('.sc'),p=s.querySelector('.sp'),x=s.querySelector('.sn');
+ function step(){var w=s.querySelector('.sl').getBoundingClientRect().width+12;return w;}
+ function upd(){var i=Math.round(t.scrollLeft/step());var vis=Math.max(1,Math.round(t.clientWidth/step()));c.textContent=(i+1)+(vis>1?'–'+Math.min(n,i+vis):'')+' / '+n;p.disabled=t.scrollLeft<4;x.disabled=t.scrollLeft+t.clientWidth>=t.scrollWidth-4;}
+ p.onclick=function(){t.scrollBy({left:-step(),behavior:'smooth'});};x.onclick=function(){t.scrollBy({left:step(),behavior:'smooth'});};
+ t.addEventListener('scroll',function(){window.requestAnimationFrame(upd);},{passive:true});upd();});
+})();
+</script><script>(function(){document.querySelectorAll('.sl2').forEach(function(s){var t=s.querySelector('.tr2'),p=s.querySelector('.pv'),n=s.querySelector('.nx');
+function st(){var c=t.children[0];return c.getBoundingClientRect().width+12;}
+function u(){p.disabled=t.scrollLeft<4;n.disabled=t.scrollLeft+t.clientWidth>=t.scrollWidth-4;}
+p.onclick=function(){t.scrollBy({left:-st(),behavior:'smooth'})};n.onclick=function(){t.scrollBy({left:st(),behavior:'smooth'})};
+t.addEventListener('scroll',function(){requestAnimationFrame(u)},{passive:true});window.addEventListener('resize',u);window.addEventListener('hashchange',function(){setTimeout(u,60)});if(window.ResizeObserver)new ResizeObserver(u).observe(t);u();});})();</script><script>(function(){document.querySelectorAll('.chapnav').forEach(function(n){var links=[].slice.call(n.querySelectorAll('a'));
+function set(id){links.forEach(function(a){a.classList.toggle('on',a.getAttribute('href')==='#'+id)});}
+links.forEach(function(a){a.addEventListener('click',function(){set(a.getAttribute('href').slice(1))})});
+var targets=links.map(function(a){return document.getElementById(a.getAttribute('href').slice(1))}).filter(Boolean);
+if(window.IntersectionObserver){var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting)set(e.target.id)})},{rootMargin:'-30% 0px -60% 0px'});targets.forEach(function(t){io.observe(t)});}
+set(targets[0]&&targets[0].id);});})();</script></body></html>
