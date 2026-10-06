@@ -15,7 +15,7 @@ favicon.svg             Tab-Icon
 
 ## 1. Platzhalter ersetzen (vor dem Upload)
 Öffne den Ordner in einem Editor (z. B. VS Code, kostenlos) und nutze „Suchen & Ersetzen in allen Dateien“:
-- `https://www.gabyluong.ch` → deine echte Domain (kommt in allen HTML-Dateien, robots.txt und sitemap.xml vor)
+- `https://www.gabyluong.com` → deine echte Domain (kommt in allen HTML-Dateien, robots.txt und sitemap.xml vor)
 - `https://www.linkedin.com/in/gaby-luong-458124151` → dein LinkedIn-Profil-Link
 - CV aktualisieren: neue PDF einfach als `assets/cv-gaby-luong.pdf` ersetzen
 - Reflection-Sätze in den drei Case Studies in deinen eigenen Worten formulieren
@@ -24,7 +24,7 @@ favicon.svg             Tab-Icon
 Doppelklick auf `index.html` genügt für einen ersten Blick.
 
 ## 3. Domain registrieren
-Eine .ch-Domain bekommst du z. B. bei Infomaniak, Hostpoint oder Cyon.
+Eine Domain bekommst du z. B. bei Infomaniak, Hostpoint oder Cyon.
 
 ## 4. Hosting (kostenlos): Netlify oder Cloudflare Pages
 **Netlify (am einfachsten):**
