@@ -718,7 +718,7 @@ a.ul:hover{color:var(--mute)}
 <footer class="ft"><span>© 2026 Gaby Luong</span><span><a href="mailto:info@gabyluong.com">E-mail</a><a href="https://www.linkedin.com/in/gaby-luong-458124151" target="_blank" rel="noopener">LinkedIn ↗</a><a data-cv href="#">CV ↓</a></span></footer>
 </div><div class="where">Case study · Summary first</div></section></main><script>
 (function(){
-var VIDEO="assets/media/video-2.mp4",WEBM="assets/media/video-2.webm",CV="assets/cv-gaby-luong.pdf";
+var VIDEO="assets/media/video-2.mp4",WEBM="assets/media/video-2.webm",CV="assets/cv-gaby-luong.pdf?v=20261013";
 document.querySelectorAll('video[data-mama]').forEach(function(v){var a=document.createElement("source");a.src=WEBM;a.type="video/webm";var b=document.createElement("source");b.src=VIDEO;b.type="video/mp4";v.appendChild(a);v.appendChild(b);v.load();if(!v.hasAttribute('data-hover')){var pr=v.play();if(pr)pr.catch(function(){});}else{v.addEventListener('loadeddata',function(){try{v.currentTime=2}catch(e){}},{once:true});}});
 document.querySelectorAll('a[data-cv]').forEach(function(a){a.href=CV;a.setAttribute('download','CV_Gaby_Luong.pdf');});
 var R=document.documentElement,T=document.getElementById("tgl");function setT(d){R.setAttribute("data-theme",d?"dark":"light");T.setAttribute("aria-pressed",d);T.querySelector("span").textContent=d?"Light":"Dark";try{localStorage.setItem("gl-theme",d?"dark":"light")}catch(e){}}try{setT(localStorage.getItem("gl-theme")==="dark")}catch(e){setT(false)}T.onclick=function(){setT(R.getAttribute("data-theme")!=="dark")};
